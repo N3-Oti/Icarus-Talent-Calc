@@ -6,6 +6,7 @@ export const bowsTree = {
         {
             name: "Bullseye",
             description: "Increased accuracy with bows",
+            descriptionJa: "弓の精度が上昇する",
             rank: 2,
             prerequisites: ["Swift Flight"],
             benefits: [
@@ -18,6 +19,7 @@ export const bowsTree = {
         {
             name: "Trained Bowman",
             description: "Reduced bow durability loss",
+            descriptionJa: "弓の耐久消費が減少する",
             rank: 2,
             prerequisites: ["Bow Quick Draw"],
             benefits: [
@@ -31,6 +33,7 @@ export const bowsTree = {
         {
             name: "Quick Load",
             description: "Faster bow reload",
+            descriptionJa: "弓のリロード速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -44,6 +47,7 @@ export const bowsTree = {
         {
             name: "Easy Draw",
             description: "Reduced stamina usage when drawing bows",
+            descriptionJa: "弓を引く際のスタミナ消費が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -57,6 +61,7 @@ export const bowsTree = {
         {
             name: "Bow Quick Draw",
             description: "Increased aim speed with bows",
+            descriptionJa: "弓のエイム速度が上昇する",
             rank: 1,
             prerequisites: ["Easy Draw", "More For Less I"],
             benefits: [
@@ -70,6 +75,7 @@ export const bowsTree = {
         {
             name: "Homing Instinct",
             description: "Chance for arrows to find targets more easily",
+            descriptionJa: "矢が対象を見つけやすくなる",
             rank: 4,
             prerequisites: ["Soft Spot II"],
             benefits: [
@@ -81,6 +87,7 @@ export const bowsTree = {
         {
             name: "Twice the Fun",
             description: "Chance to fire two arrows",
+            descriptionJa: "2本の矢を放つチャンスがある",
             rank: 3,
             prerequisites: ["Soft Spot I", "Bullseye"],
             benefits: [
@@ -93,6 +100,7 @@ export const bowsTree = {
         {
             name: "Hindering Shot",
             description: "Arrow strikes slow your target",
+            descriptionJa: "矢がヒットすると対象の速度が低下する",
             rank: 4,
             prerequisites: ["Trained Bowsmith", "Soft Spot I"],
             benefits: [
@@ -106,6 +114,7 @@ export const bowsTree = {
         {
             name: "Pinning Shot",
             description: "Chance for arrow strikes to immobilize target",
+            descriptionJa: "矢がヒットすると対象を動けなくするチャンスがある",
             rank: 4,
             prerequisites: ["Soft Spot II"],
             benefits: [
@@ -117,6 +126,7 @@ export const bowsTree = {
         {
             name: "Soft Spot I",
             description: "Increased critical hit multiplier on bows",
+            descriptionJa: "弓のクリティカルヒット倍率が上昇する",
             rank: 3,
             prerequisites: ["Bullseye", "Trained Bowsmith", "Trained Bowman"],
             benefits: [
@@ -129,6 +139,7 @@ export const bowsTree = {
         {
             name: "Soft Spot II",
             description: "Increased critical hit multiplier on bows",
+            descriptionJa: "弓のクリティカルヒット倍率がさらに上昇する",
             rank: 3,
             prerequisites: ["Twice the Fun"],
             benefits: [
@@ -141,6 +152,7 @@ export const bowsTree = {
         {
             name: "Trained Bowsmith",
             description: "Crafted bows have increased durability",
+            descriptionJa: "クラフトした弓の耐久値が上昇する",
             rank: 2,
             prerequisites: ["Increased Arrow Damage I", "Bow Quick Draw", "More For Less I"],
             benefits: [
@@ -152,6 +164,7 @@ export const bowsTree = {
         {
             name: "Crafty Fletcher",
             description: "Chance to craft double when crafting arrows",
+            descriptionJa: "矢をクラフトする際に2倍作れるチャンスがある",
             rank: 3,
             prerequisites: ["Trained Bowsmith"],
             benefits: [
@@ -163,6 +176,7 @@ export const bowsTree = {
         {
             name: "Bow Agility",
             description: "Faster movespeed while holding bows",
+            descriptionJa: "弓を持ちながらの移動速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -176,6 +190,7 @@ export const bowsTree = {
         {
             name: "Swift Flight",
             description: "Increased arrow speed",
+            descriptionJa: "矢の速度が上昇する",
             rank: 1,
             prerequisites: ["Quick Load"],
             benefits: [
@@ -189,6 +204,7 @@ export const bowsTree = {
         {
             name: "Increased Arrow Damage I",
             description: "Adds a bonus to arrow damage",
+            descriptionJa: "矢のダメージにボーナスが加わる",
             rank: 1,
             prerequisites: ["Bow Agility", "More For Less I"],
             benefits: [
@@ -202,6 +218,7 @@ export const bowsTree = {
         {
             name: "Increased Arrow Damage II",
             description: "Adds a further bonus to arrow damage",
+            descriptionJa: "矢のダメージにさらにボーナスが加わる",
             rank: 2,
             prerequisites: ["Increased Arrow Damage I"],
             benefits: [
@@ -215,6 +232,7 @@ export const bowsTree = {
         {
             name: "More For Less II",
             description: "Cheaper bow crafting",
+            descriptionJa: "弓のクラフトコストがさらに安くなる",
             rank: 3,
             prerequisites: ["Trained Bowsmith"],
             benefits: [
@@ -226,6 +244,7 @@ export const bowsTree = {
         {
             name: "More For Less I",
             description: "Cheaper bow crafting",
+            descriptionJa: "弓のクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -237,6 +256,7 @@ export const bowsTree = {
         {
             name: "Wounding Shot",
             description: "Arrow strikes bleed your target over time",
+            descriptionJa: "矢がヒットすると対象が時間経過でダメージを受ける",
             rank: 4,
             prerequisites: ["Hindering Shot"],
             benefits: [
@@ -250,6 +270,7 @@ export const bowsTree = {
         {
             name: "Supply and Demand",
             description: "Increased damage from crafted arrows or bolts",
+            descriptionJa: "クラフトした矢のダメージが上昇する",
             rank: 4,
             prerequisites: ["Hindering Shot"],
             benefits: [

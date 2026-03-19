@@ -6,6 +6,7 @@ export const hyenaTree = {
 		{
 			name: "Hunter's Mark",
 			description: "Attacks Mark target on hit, causing extra damage the next time they are hit",
+			descriptionJa: "攻撃時にターゲットをマークし、次の攻撃で追加ダメージを与える",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -19,6 +20,7 @@ export const hyenaTree = {
 		{
 			name: "Endless Hunger",
 			description: "Heals a percentage of life when killing targets",
+			descriptionJa: "敵を倒した際にHPの一定割合を回復する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity"],
 			benefits: [
@@ -32,6 +34,7 @@ export const hyenaTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Hyena"],
 			benefits: [
@@ -46,6 +49,7 @@ export const hyenaTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Hyena"],
 			benefits: [
@@ -60,6 +64,7 @@ export const hyenaTree = {
 		{
 			name: "Hyena",
 			description: "Can be specialized into defensive or supportive combat roles.",
+			descriptionJa: "防御的または支援的な戦闘役割に特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -71,6 +76,7 @@ export const hyenaTree = {
 		{
 			name: "Natural Ferocity",
 			description: "Increased Melee Damage",
+			descriptionJa: "近接ダメージが増加する",
 			rank: 1,
 			prerequisites: ["Hyena"],
 			benefits: [
@@ -85,6 +91,7 @@ export const hyenaTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Hyena"],
 			benefits: [
@@ -99,6 +106,7 @@ export const hyenaTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Natural Ferocity", "Metabolic Preservation"],
 			benefits: [
@@ -113,6 +121,7 @@ export const hyenaTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Natural Ferocity"],
 			benefits: [
@@ -127,6 +136,7 @@ export const hyenaTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Wild Fortitude"],
 			benefits: [
@@ -141,6 +151,7 @@ export const hyenaTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Nurtured Recovery"],
 			benefits: [
@@ -155,6 +166,7 @@ export const hyenaTree = {
 		{
 			name: "Scavenger's Tolerance",
 			description: "Increased Poison Resistance",
+			descriptionJa: "毒耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -168,6 +180,7 @@ export const hyenaTree = {
 		{
 			name: "Fever Control",
 			description: "Reduces Desert Water Consumption, at max rank grants Hyperthermia Resist Aura",
+			descriptionJa: "砂漠での水消費が減少し、最大ランクで高体温症耐性オーラを付与する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -181,6 +194,7 @@ export const hyenaTree = {
 		{
 			name: "Thick Hide",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [

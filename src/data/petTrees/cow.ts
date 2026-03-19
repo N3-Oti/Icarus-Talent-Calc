@@ -6,6 +6,7 @@ export const cowTree = {
 		{
 			name: "Calming Moos",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -19,6 +20,7 @@ export const cowTree = {
 		{
 			name: "Fed Well",
 			description: "Reduced resources consumed for producing milk",
+			descriptionJa: "ミルク生産に必要なリソース消費が減少する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -32,6 +34,7 @@ export const cowTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Cow"],
 			benefits: [
@@ -46,6 +49,7 @@ export const cowTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Cow"],
 			benefits: [
@@ -60,6 +64,7 @@ export const cowTree = {
 		{
 			name: "Cow",
 			description: "Can be specialized into further milk yield or defensive bonuses.",
+			descriptionJa: "ミルク収量の強化、または防御ボーナスに特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -71,6 +76,7 @@ export const cowTree = {
 		{
 			name: "Calming Presence",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Cow"],
 			benefits: [
@@ -85,6 +91,7 @@ export const cowTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Cow"],
 			benefits: [
@@ -99,6 +106,7 @@ export const cowTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Calming Presence", "Metabolic Preservation"],
 			benefits: [
@@ -113,6 +121,7 @@ export const cowTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Calming Presence"],
 			benefits: [
@@ -127,6 +136,7 @@ export const cowTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Wild Fortitude"],
 			benefits: [
@@ -141,6 +151,7 @@ export const cowTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Nurtured Recovery"],
 			benefits: [
@@ -155,6 +166,7 @@ export const cowTree = {
 		{
 			name: "Thick Hide",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Calming Presence"],
 			benefits: [
@@ -168,6 +180,7 @@ export const cowTree = {
 		{
 			name: "Holstein Harvest",
 			description: "Increases milk production",
+			descriptionJa: "ミルク生産量が増加する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -181,6 +194,7 @@ export const cowTree = {
 		{
 			name: "Soft Hoofed",
 			description: "Reduced Animal Threat",
+			descriptionJa: "動物に感知される脅威が減少する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [

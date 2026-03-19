@@ -6,6 +6,7 @@ export const cookingTree = {
         {
             name: "Naturally Preserved",
             description: "Slows food decay in your inventory",
+            descriptionJa: "インベントリ内の食料の腐敗が遅くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -19,6 +20,7 @@ export const cookingTree = {
         {
             name: "Long Lasting Effects",
             description: "Food buffs persist longer",
+            descriptionJa: "食料バフの持続時間が延長される",
             rank: 1,
             prerequisites: ["Naturally Preserved", "Filling Meals"],
             benefits: [
@@ -32,6 +34,7 @@ export const cookingTree = {
         {
             name: "You Gonna Eat That?",
             description: "Gain the ability to eat spoiled food",
+            descriptionJa: "腐った食料を食べられるようになる",
             rank: 3,
             prerequisites: ["Superfoods"],
             benefits: [
@@ -43,6 +46,7 @@ export const cookingTree = {
         {
             name: "It's Better Than I Thought",
             description: "Increased benefit from spoiled food",
+            descriptionJa: "腐った食料からの恩恵が増加する",
             rank: 3,
             prerequisites: ["You Gonna Eat That?"],
             benefits: [
@@ -55,6 +59,7 @@ export const cookingTree = {
         {
             name: "Superfoods",
             description: "Raw food provides more sustenance",
+            descriptionJa: "生の食料からより多くの栄養を得られる",
             rank: 3,
             prerequisites: ["Long Lasting Effects"],
             benefits: [
@@ -67,6 +72,7 @@ export const cookingTree = {
         {
             name: "Filling Meals",
             description: "Eating refills hunger bar more rapidly",
+            descriptionJa: "食事でお腹が素早く満たされる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -79,6 +85,7 @@ export const cookingTree = {
         {
             name: "Food Pyramid",
             description: "Gives an extra active food buff",
+            descriptionJa: "追加の食料バフスロットが増える",
             rank: 4,
             prerequisites: ["Fresh is Best", "Long Lasting Effects"],
             benefits: [
@@ -90,6 +97,7 @@ export const cookingTree = {
         {
             name: "Green Thumb",
             description: "Planted crops grow faster",
+            descriptionJa: "植えた作物の成長速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -102,6 +110,7 @@ export const cookingTree = {
         {
             name: "Fresh is Best",
             description: "Planted crops do not Wither away after they have finished growing.",
+            descriptionJa: "植えた作物は成長後に枯れなくなる",
             rank: 3,
             prerequisites: ["Green Thumb", "Gathering Guru"],
             benefits: [
@@ -113,6 +122,7 @@ export const cookingTree = {
         {
             name: "Well Laid Fire",
             description: "Crafted campfires consume fuel more slowly",
+            descriptionJa: "クラフトしたキャンプファイヤーの燃料消費が遅くなる",
             rank: 1,
             prerequisites: ["Filling Meals"],
             benefits: [
@@ -125,6 +135,7 @@ export const cookingTree = {
         {
             name: "All-Nighter",
             description: "Planted crops grow faster at night.",
+            descriptionJa: "夜間の作物成長速度が上昇する",
             rank: 1,
             prerequisites: ["Green Thumb"],
             benefits: [
@@ -137,6 +148,7 @@ export const cookingTree = {
         {
             name: "Carnivore",
             description: "Buffs from Dried Meat are Increased",
+            descriptionJa: "乾燥肉のバフ効果が増加する",
             rank: 1,
             prerequisites: ["Naturally Preserved"],
             benefits: [
@@ -149,6 +161,7 @@ export const cookingTree = {
         {
             name: "Vegetarian",
             description: "Buffs from Vegetable only foods are increased",
+            descriptionJa: "野菜のみの食料のバフ効果が増加する",
             rank: 1,
             prerequisites: ["Naturally Preserved"],
             benefits: [
@@ -161,6 +174,7 @@ export const cookingTree = {
         {
             name: "Get up and go",
             description: "Increase to base stamina",
+            descriptionJa: "基本スタミナが増加する",
             rank: 1,
             prerequisites: ["Green Thumb"],
             benefits: [
@@ -174,6 +188,7 @@ export const cookingTree = {
         {
             name: "The Old One-Two",
             description: "Increased melee damage",
+            descriptionJa: "近接ダメージが上昇する",
             rank: 1,
             prerequisites: ["Long Lasting Effects"],
             benefits: [
@@ -187,6 +202,7 @@ export const cookingTree = {
         {
             name: "Gathering Guru",
             description: "Increased yield from harvesting by hand",
+            descriptionJa: "手でのハーベスト収量が増加する",
             rank: 2,
             prerequisites: ["Long Lasting Effects", "Green Thumb"],
             benefits: [
@@ -200,6 +216,7 @@ export const cookingTree = {
         {
             name: "Shoot the Breeze",
             description: "Grants the recipe to make gunpowder from fertilizer on the Mortar and Pestle",
+            descriptionJa: "モルタルとペストルで肥料から火薬を作れるレシピが解放される",
             rank: 1,
             prerequisites: ["Neat and Tidy"],
             benefits: [
@@ -211,6 +228,7 @@ export const cookingTree = {
         {
             name: "Get off my Lawn",
             description: "Grants the recipe to make the Rusty Shotgun on the Machining Bench",
+            descriptionJa: "マシニングベンチでラスティショットガンを作れるレシピが解放される",
             rank: 4,
             prerequisites: ["Shoot the Breeze"],
             benefits: [
@@ -222,6 +240,7 @@ export const cookingTree = {
         {
             name: "Neat and Tidy",
             description: "Planted crops use less fertilizer",
+            descriptionJa: "植えた作物が使用する肥料が減少する",
             rank: 1,
             prerequisites: ["Green Thumb"],
             benefits: [
@@ -233,6 +252,7 @@ export const cookingTree = {
         {
             name: "Speed-Gro",
             description: "Planted crops grow crops faster",
+            descriptionJa: "植えた作物の成長速度がさらに上昇する",
             rank: 3,
             prerequisites: ["Green Thumb"],
             benefits: [
@@ -245,6 +265,7 @@ export const cookingTree = {
         {
             name: "Bumper Crop",
             description: "Planted crops yield more resources",
+            descriptionJa: "植えた作物の収量が増加する",
             rank: 3,
             prerequisites: ["Green Thumb"],
             benefits: [
@@ -257,6 +278,7 @@ export const cookingTree = {
         {
             name: "Sturdy Stalks",
             description: "Planted crops spoil slower when harvested",
+            descriptionJa: "収穫したアイテムの腐敗時間が延長される",
             rank: 1,
             prerequisites: ["Fresh is Best"],
             benefits: [
@@ -269,6 +291,7 @@ export const cookingTree = {
         {
             name: "Prolific Crop",
             description: "Planted crops yield more seeds when seeds can be collected",
+            descriptionJa: "植えた作物から採れる種の収量が増加する",
             rank: 3,
             prerequisites: ["Green Thumb"],
             benefits: [
@@ -281,6 +304,7 @@ export const cookingTree = {
         {
             name: "Seed Master",
             description: "Wild & Grown Crops yield more seeds when seeds can be collected",
+            descriptionJa: "野生・栽培作物から採れる種の収量が増加する",
             rank: 2,
             prerequisites: ["Green Thumb"],
             benefits: [

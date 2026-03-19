@@ -6,6 +6,7 @@ export const huntingTree = {
         {
             name: "Cold Hearted",
             description: "Double resource yield from baby animals",
+            descriptionJa: "赤ちゃん動物からのスキニングで2倍の収量を得る",
             rank: 4,
             prerequisites: ["Big Game Hunter", "Careful Skinner", "Quick Clean Up"],
             benefits: [
@@ -17,6 +18,7 @@ export const huntingTree = {
         {
             name: "Chase 'em Down",
             description: "Increase to base stamina",
+            descriptionJa: "基本スタミナが増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -30,6 +32,7 @@ export const huntingTree = {
         {
             name: "Careful Skinner",
             description: "Increased leather from skinning",
+            descriptionJa: "スキニングで得られる革の量が増加する",
             rank: 2,
             prerequisites: ["Trained Hunter"],
             benefits: [
@@ -42,6 +45,7 @@ export const huntingTree = {
         {
             name: "Blueprint: Arctic Armor",
             description: "Grants access to Arctic Armor blueprints",
+            descriptionJa: "北極アーマーのブループリントにアクセスできる",
             rank: 4,
             prerequisites: ["Blueprint: Ghillie Armor", "Big Game Hunter"],
             benefits: [
@@ -53,6 +57,7 @@ export const huntingTree = {
         {
             name: "Sense Small Animals",
             description: "Nearby small animals will highlight when aiming",
+            descriptionJa: "エイム中に近くの小動物がハイライト表示される",
             rank: 2,
             prerequisites: ["Strong Shoulders"],
             benefits: [
@@ -64,6 +69,7 @@ export const huntingTree = {
         {
             name: "Sense Medium Animals",
             description: "Nearby medium animals will highlight when aiming",
+            descriptionJa: "エイム中に近くの中型動物がハイライト表示される",
             rank: 3,
             prerequisites: ["Sense Small Animals"],
             benefits: [
@@ -75,6 +81,7 @@ export const huntingTree = {
         {
             name: "Sense Megafauna",
             description: "Nearby large animals will highlight when aiming",
+            descriptionJa: "エイム中に近くの大型動物がハイライト表示される",
             rank: 4,
             prerequisites: ["Sense Medium Animals"],
             benefits: [
@@ -86,6 +93,7 @@ export const huntingTree = {
         {
             name: "Swift Stalker",
             description: "Increased movespeed while crouching",
+            descriptionJa: "しゃがみ時の移動速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -99,6 +107,7 @@ export const huntingTree = {
         {
             name: "Without a Sound",
             description: "Harder to detect when in stealth",
+            descriptionJa: "隠密時に発見されにくくなる",
             rank: 2,
             prerequisites: ["Quick Getaway", "Leather Breakdown"],
             benefits: [
@@ -112,6 +121,7 @@ export const huntingTree = {
         {
             name: "Strong Shoulders",
             description: "Increased movespeed when carrying animal carcasses",
+            descriptionJa: "動物の死骸を運ぶ際の移動速度が上昇する",
             rank: 1,
             prerequisites: ["Chase 'em Down", "Fine Butcher I"],
             benefits: [
@@ -123,6 +133,7 @@ export const huntingTree = {
         {
             name: "Fine Butcher I",
             description: "Increased meat yield when skinning",
+            descriptionJa: "スキニング時の肉の収量が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -134,6 +145,7 @@ export const huntingTree = {
         {
             name: "Bone Collector",
             description: "Increased bone yield when skinning",
+            descriptionJa: "スキニング時の骨の収量が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -145,6 +157,7 @@ export const huntingTree = {
         {
             name: "Blueprint: Ghillie Armor",
             description: "Grants access to Ghillie Armor blueprints",
+            descriptionJa: "ギリースーツのブループリントにアクセスできる",
             rank: 3,
             prerequisites: ["Without a Sound"],
             benefits: [
@@ -156,6 +169,7 @@ export const huntingTree = {
         {
             name: "Quick Getaway",
             description: "Increased stamina regen after taking damage",
+            descriptionJa: "ダメージを受けた後のスタミナ再生速度が上昇する",
             rank: 1,
             prerequisites: ["Bone Collector", "Swift Stalker"],
             benefits: [
@@ -167,6 +181,7 @@ export const huntingTree = {
         {
             name: "Leather Breakdown",
             description: "Unlocks the blueprint to turn leather into rope on Character",
+            descriptionJa: "レザーをロープに変換するブループリントが解放される",
             rank: 1,
             prerequisites: ["Swift Stalker", "Chase 'em Down"],
             benefits: [
@@ -178,6 +193,7 @@ export const huntingTree = {
         {
             name: "Fine Butcher II",
             description: "Increased meat yield when skinning",
+            descriptionJa: "スキニング時の肉の収量がさらに増加する",
             rank: 3,
             prerequisites: ["Careful Skinner"],
             benefits: [
@@ -190,6 +206,7 @@ export const huntingTree = {
         {
             name: "Bone Collector II",
             description: "Increased bone yield when skinning",
+            descriptionJa: "スキニング時の骨の収量がさらに増加する",
             rank: 3,
             prerequisites: ["Careful Skinner", "Quick Clean Up"],
             benefits: [
@@ -202,6 +219,7 @@ export const huntingTree = {
         {
             name: "Health Bars",
             description: "See animal health bars",
+            descriptionJa: "動物のHP表示が見えるようになる",
             rank: 2,
             prerequisites: ["Strong Shoulders"],
             benefits: [
@@ -213,6 +231,7 @@ export const huntingTree = {
         {
             name: "Chase 'em Down II",
             description: "Increase to base stamina",
+            descriptionJa: "基本スタミナがさらに増加する",
             rank: 3,
             prerequisites: ["Careful Skinner", "Quick Clean Up"],
             benefits: [
@@ -226,6 +245,7 @@ export const huntingTree = {
         {
             name: "Big Game Hunter",
             description: "Allows you to see the location of World Bosses on the map",
+            descriptionJa: "マップでワールドボスの場所を確認できるようになる",
             rank: 4,
             prerequisites: ["Blueprint: Ghillie Armor", "Careful Skinner", "Quick Clean Up"],
             benefits: [
@@ -237,6 +257,7 @@ export const huntingTree = {
         {
             name: "Trained Hunter",
             description: "Knives degrade slower when skinning",
+            descriptionJa: "スキニング時のナイフ耐久消費が減少する",
             rank: 2,
             prerequisites: ["Leather Breakdown", "Without a Sound"],
             benefits: [
@@ -250,6 +271,7 @@ export const huntingTree = {
         {
             name: "Brittle Bones",
             description: "Chance to Instantly Gather Bones",
+            descriptionJa: "骨を即座に採取するチャンスがある",
             rank: 4,
             prerequisites: ["Bone Collector II"],
             benefits: [
@@ -261,6 +283,7 @@ export const huntingTree = {
         {
             name: "Quick Clean Up",
             description: "Increased damage against creature bones",
+            descriptionJa: "クリーチャーの骨へのダメージが増加する",
             rank: 3,
             prerequisites: ["Careful Skinner", "Sense Medium Animals"],
             benefits: [

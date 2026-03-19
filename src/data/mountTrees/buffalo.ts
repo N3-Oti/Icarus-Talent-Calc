@@ -6,6 +6,7 @@ export const buffaloTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Buffalo"],
 			benefits: [
@@ -20,6 +21,7 @@ export const buffaloTree = {
 		{
 			name: "Riding Forward",
 			description: "Increased Slow Resistance",
+			descriptionJa: "スロー耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Strong Back"],
 			benefits: [
@@ -34,6 +36,7 @@ export const buffaloTree = {
 		{
 			name: "Strong Back",
 			description: "Increased Weight Capacity",
+			descriptionJa: "重量容量が増加する",
 			rank: 1,
 			prerequisites: ["Buffalo"],
 			benefits: [
@@ -48,6 +51,7 @@ export const buffaloTree = {
 		{
 			name: "Buffalo",
 			description: "Can be specialized into defensive, hauling or heat resist bonuses.",
+			descriptionJa: "防御的、積載、または暑さ耐性ボーナスに特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -59,6 +63,7 @@ export const buffaloTree = {
 		{
 			name: "Natural Endurance",
 			description: "Increased Maximum Stamina",
+			descriptionJa: "最大スタミナが増加する",
 			rank: 1,
 			prerequisites: ["Buffalo"],
 			benefits: [
@@ -73,6 +78,7 @@ export const buffaloTree = {
 		{
 			name: "Catlike Grace",
 			description: "Increased Fall Damage Reduction",
+			descriptionJa: "落下ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -87,6 +93,7 @@ export const buffaloTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Strong Back"],
 			benefits: [
@@ -101,6 +108,7 @@ export const buffaloTree = {
 		{
 			name: "Soft Padding",
 			description: "Reduced Animal Threat",
+			descriptionJa: "動物に感知される脅威が減少する",
 			rank: 1,
 			prerequisites: ["Natural Endurance"],
 			benefits: [
@@ -115,6 +123,7 @@ export const buffaloTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Roaming Vitality", "Soft Padding"],
 			benefits: [
@@ -128,6 +137,7 @@ export const buffaloTree = {
 		{
 			name: "Roaming Vitality",
 			description: "Increased Stamina Regeneration",
+			descriptionJa: "スタミナ再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -142,6 +152,7 @@ export const buffaloTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption",
+			descriptionJa: "水消費が減少する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -156,6 +167,7 @@ export const buffaloTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration",
+			descriptionJa: "食料効果時間が延長される",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -170,6 +182,7 @@ export const buffaloTree = {
 		{
 			name: "Balanced Pack",
 			description: "Increased Inventory Slots",
+			descriptionJa: "インベントリスロットが増加する",
 			rank: 1,
 			prerequisites: ["Perfect Pasturage", "Riding Forward"],
 			benefits: [
@@ -183,6 +196,7 @@ export const buffaloTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Catlike Grace", "Nurtured Recovery"],
 			benefits: [
@@ -196,6 +210,7 @@ export const buffaloTree = {
 		{
 			name: "Springful Step",
 			description: "Reduced Jumping Stamina Cost",
+			descriptionJa: "ジャンプ時のスタミナ消費が減少する",
 			rank: 1,
 			prerequisites: ["Natural Endurance"],
 			benefits: [
@@ -210,6 +225,7 @@ export const buffaloTree = {
 		{
 			name: "Racing Ready",
 			description: "Increased Movement Speed",
+			descriptionJa: "移動速度が増加する",
 			rank: 1,
 			prerequisites: ["Springful Step", "Hydration Elasticity"],
 			benefits: [
@@ -223,6 +239,7 @@ export const buffaloTree = {
 		{
 			name: "Heavy Payload",
 			description: "Movement Speed while hauling a cart",
+			descriptionJa: "カートを引いている間の移動速度が増加する",
 			rank: 1,
 			prerequisites: ["Soft Padding"],
 			benefits: [
@@ -236,6 +253,7 @@ export const buffaloTree = {
 		{
 			name: "Fever Control",
 			description: "Reduces Desert Water Consumption, at max rank grants Hyperthermia Resist Aura",
+			descriptionJa: "砂漠での水消費が減少し、最大ランクで高体温症耐性オーラを付与する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -249,6 +267,7 @@ export const buffaloTree = {
 		{
 			name: "Flaming Defiance",
 			description: "Increased Fire and Heat Resistance",
+			descriptionJa: "火炎耐性と暑さ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Catlike Grace"],
 			benefits: [
@@ -262,6 +281,7 @@ export const buffaloTree = {
 		{
 			name: "Thump Thump",
 			description: "Attacks Cause Blunt Trauma",
+			descriptionJa: "攻撃時に鈍打トラウマを付与するチャンスがある",
 			rank: 1,
 			prerequisites: ["Roaming Vitality"],
 			benefits: [
@@ -275,6 +295,7 @@ export const buffaloTree = {
 		{
 			name: "Cargo Hauling",
 			description: "Increased Inventory Slots, at max rank grants an additional Bulky Slot",
+			descriptionJa: "インベントリスロットが増加し、最大ランクで追加の大型スロットが解放される",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -288,6 +309,7 @@ export const buffaloTree = {
 		{
 			name: "Thick Hide",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Riding Forward"],
 			benefits: [
@@ -301,6 +323,7 @@ export const buffaloTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Buffalo"],
 			benefits: [

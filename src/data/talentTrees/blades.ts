@@ -6,6 +6,7 @@ export const bladesTree = {
         {
             name: "Swift Stab",
             description: "Increased melee attack speed",
+            descriptionJa: "近接攻撃速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -19,6 +20,7 @@ export const bladesTree = {
         {
             name: "Heavy Hand",
             description: "Increased melee attack damage",
+            descriptionJa: "近接攻撃ダメージが上昇する",
             rank: 1,
             prerequisites: ["Swift Stab"],
             benefits: [
@@ -32,6 +34,7 @@ export const bladesTree = {
         {
             name: "Deadly Stab",
             description: "Increased multiplier on knife critical hits",
+            descriptionJa: "ナイフのクリティカルヒット倍率が上昇する",
             rank: 2,
             prerequisites: ["Heavy Hand"],
             benefits: [
@@ -45,6 +48,7 @@ export const bladesTree = {
         {
             name: "Deft Hands",
             description: "Faster aim windup",
+            descriptionJa: "エイム速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -58,6 +62,7 @@ export const bladesTree = {
         {
             name: "Range Damage I",
             description: "Increased ranged damage",
+            descriptionJa: "遠距離ダメージが上昇する",
             rank: 2,
             prerequisites: ["Where'd that go?", "Discount Blades I", "1000 cuts"],
             benefits: [
@@ -71,6 +76,7 @@ export const bladesTree = {
         {
             name: "Strong Arm",
             description: "Increased throw distance",
+            descriptionJa: "投げナイフの飛距離が伸びる",
             rank: 3,
             prerequisites: ["Where'd that go?"],
             benefits: [
@@ -84,6 +90,7 @@ export const bladesTree = {
         {
             name: "Silent Blade",
             description: "Increased sneak while holding a knife",
+            descriptionJa: "ナイフを持ちながらの隠密性が向上する",
             rank: 3,
             prerequisites: ["If It Works", "Deadly Stab"],
             benefits: [
@@ -97,6 +104,7 @@ export const bladesTree = {
         {
             name: "Running with Knives",
             description: "Increased movespeed with a blade",
+            descriptionJa: "ナイフ装備時の移動速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -110,6 +118,7 @@ export const bladesTree = {
         {
             name: "1000 cuts",
             description: "Reduced stamina usage with knives",
+            descriptionJa: "ナイフ使用時のスタミナ消費が減少する",
             rank: 1,
             prerequisites: ["Deft Hands"],
             benefits: [
@@ -123,6 +132,7 @@ export const bladesTree = {
         {
             name: "Discount Blades I",
             description: "Cheaper knife crafting",
+            descriptionJa: "ナイフのクラフトコストが安くなる",
             rank: 2,
             prerequisites: ["Hardy Blade", "Reinforced Blades", "1000 cuts"],
             benefits: [
@@ -134,6 +144,7 @@ export const bladesTree = {
         {
             name: "Trained Skinner",
             description: "Knives degrade slower when skinning",
+            descriptionJa: "スキニング時のナイフ耐久消費が減少する",
             rank: 2,
             prerequisites: ["Hardy Blade", "Discount Blades I"],
             benefits: [
@@ -147,6 +158,7 @@ export const bladesTree = {
         {
             name: "Hardy Blade",
             description: "Knives degrade slower in combat",
+            descriptionJa: "戦闘時のナイフ耐久消費が減少する",
             rank: 1,
             prerequisites: ["Swift Stab", "Running with Knives"],
             benefits: [
@@ -160,6 +172,7 @@ export const bladesTree = {
         {
             name: "That Was Quick",
             description: "Increased skinning speed",
+            descriptionJa: "スキニング速度が上昇する",
             rank: 3,
             prerequisites: ["Trained Skinner", "If It Works"],
             benefits: [
@@ -173,6 +186,7 @@ export const bladesTree = {
         {
             name: "Killer Throw",
             description: "Chance to instantly kill non-boss targets with a thrown knife.",
+            descriptionJa: "しゃがみ時に投げたナイフで対象を即死させるチャンスがある",
             rank: 4,
             prerequisites: ["Strong Arm"],
             benefits: [
@@ -184,6 +198,7 @@ export const bladesTree = {
         {
             name: "Stay Right There",
             description: "Thrown knife critical hits immobilize target",
+            descriptionJa: "投げたナイフのクリティカルヒットで対象を動けなくする",
             rank: 4,
             prerequisites: ["Silent Blade"],
             benefits: [
@@ -195,6 +210,7 @@ export const bladesTree = {
         {
             name: "Where'd that go?",
             description: "Thrown knives highlight in world",
+            descriptionJa: "投げたナイフがワールドでハイライト表示される",
             rank: 2,
             prerequisites: ["1000 cuts"],
             benefits: [
@@ -206,6 +222,7 @@ export const bladesTree = {
         {
             name: "If It Works",
             description: "Knives deal felling damage",
+            descriptionJa: "ナイフで伐採ダメージを与えられる",
             rank: 3,
             prerequisites: ["Trained Skinner", "Deadly Stab"],
             benefits: [
@@ -217,6 +234,7 @@ export const bladesTree = {
         {
             name: "Reinforced Blades",
             description: "Crafted knives have increased durability",
+            descriptionJa: "クラフトしたナイフの耐久値が上昇する",
             rank: 1,
             prerequisites: ["Running with Knives"],
             benefits: [
@@ -228,6 +246,7 @@ export const bladesTree = {
         {
             name: "Range Damage II",
             description: "Increased ranged damage",
+            descriptionJa: "遠距離ダメージがさらに上昇する",
             rank: 2,
             prerequisites: ["Range Damage I"],
             benefits: [
@@ -241,6 +260,7 @@ export const bladesTree = {
         {
             name: "Strong Arm II",
             description: "Increased throw distance",
+            descriptionJa: "投げナイフの飛距離がさらに伸びる",
             rank: 3,
             prerequisites: ["Strong Arm"],
             benefits: [
@@ -254,6 +274,7 @@ export const bladesTree = {
         {
             name: "Discount Blades II",
             description: "Cheaper knife crafting",
+            descriptionJa: "ナイフのクラフトコストがさらに安くなる",
             rank: 3,
             prerequisites: ["Discount Blades I"],
             benefits: [

@@ -6,6 +6,7 @@ export const snowwolfTree = {
 		{
 			name: "Aura of Warmth",
 			description: "Increases Health Regeneration in the Arctic, at max rank grants Hypothermia Resistance Aura",
+			descriptionJa: "北極でのHP再生が増加し、最大ランクで低体温症耐性オーラを付与する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -19,6 +20,7 @@ export const snowwolfTree = {
 		{
 			name: "Arctic Mutation",
 			description: "Chance to apply Freeze on hit, and gains Cold Resistance",
+			descriptionJa: "攻撃時に凍結を付与するチャンスがあり、寒さ耐性を得る",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -32,6 +34,7 @@ export const snowwolfTree = {
 		{
 			name: "Hunter's Mark",
 			description: "Attacks Mark target on hit, causing extra damage the next time they are hit",
+			descriptionJa: "攻撃時にターゲットをマークし、次の攻撃で追加ダメージを与える",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -45,6 +48,7 @@ export const snowwolfTree = {
 		{
 			name: "Endless Hunger",
 			description: "Heals a percentage of life when killing targets",
+			descriptionJa: "敵を倒した際にHPの一定割合を回復する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity"],
 			benefits: [
@@ -58,6 +62,7 @@ export const snowwolfTree = {
 		{
 			name: "Coordinated Attacks",
 			description: "Highlights hit targets for a short duration",
+			descriptionJa: "攻撃したターゲットを短時間ハイライト表示する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity"],
 			benefits: [
@@ -71,6 +76,7 @@ export const snowwolfTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Snow Wolf"],
 			benefits: [
@@ -85,6 +91,7 @@ export const snowwolfTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Snow Wolf"],
 			benefits: [
@@ -99,6 +106,7 @@ export const snowwolfTree = {
 		{
 			name: "Snow Wolf",
 			description: "Can be specialized into aggressive combat roles or specific afflictions.",
+			descriptionJa: "攻撃的な戦闘役割や特定の状態異常に特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -110,6 +118,7 @@ export const snowwolfTree = {
 		{
 			name: "Natural Ferocity",
 			description: "Increased Melee Damage",
+			descriptionJa: "近接ダメージが増加する",
 			rank: 1,
 			prerequisites: ["Snow Wolf"],
 			benefits: [
@@ -124,6 +133,7 @@ export const snowwolfTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Snow Wolf"],
 			benefits: [
@@ -138,6 +148,7 @@ export const snowwolfTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Natural Ferocity"],
 			benefits: [
@@ -152,6 +163,7 @@ export const snowwolfTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity", "Wild Fortitude"],
 			benefits: [
@@ -166,6 +178,7 @@ export const snowwolfTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Nurtured Recovery"],
 			benefits: [
@@ -180,6 +193,7 @@ export const snowwolfTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Metabolic Preservation"],
 			benefits: [

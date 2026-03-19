@@ -4,6 +4,7 @@ import { normalizeBenefits, formatBenefit} from "../../utils/normalizeBenefits.t
 import '@fontsource/barlow';
 
 import {TalentData} from "../../constants/treeStructures.ts";
+import { useLanguage } from "../../contexts/languageContext.tsx";
 
 interface TooltipWrapperProps {
     talent: TalentData;
@@ -18,6 +19,11 @@ export default function TooltipWrapper({
                                            currentPoints,
                                            children,
                                        }: TooltipWrapperProps) {
+    const { language } = useLanguage();
+    const displayDescription = language === 'ja' && talent.descriptionJa
+        ? talent.descriptionJa
+        : talent.description;
+
     return (
         <Tooltip
             title={
@@ -41,7 +47,7 @@ export default function TooltipWrapper({
 
                     {/* Description */}
                     <Typography fontFamily={"Barlow"} variant="body2" sx={{ px: 2, color: '#ccc', mb: 1, textAlign: 'center' }}>
-                        {talent.description}
+                        {displayDescription}
                     </Typography>
 
                     {/* Thick Rule */}

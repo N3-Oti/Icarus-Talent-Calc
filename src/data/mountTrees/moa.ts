@@ -6,6 +6,7 @@ export const moaTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Moa"],
 			benefits: [
@@ -20,6 +21,7 @@ export const moaTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Moa"],
 			benefits: [
@@ -34,6 +36,7 @@ export const moaTree = {
 		{
 			name: "Riding Forward",
 			description: "Increased Slow Resistance",
+			descriptionJa: "スロー耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Strong Back"],
 			benefits: [
@@ -48,6 +51,7 @@ export const moaTree = {
 		{
 			name: "Strong Back",
 			description: "Increased Weight Capacity",
+			descriptionJa: "重量容量が増加する",
 			rank: 1,
 			prerequisites: ["Moa"],
 			benefits: [
@@ -62,6 +66,7 @@ export const moaTree = {
 		{
 			name: "Moa",
 			description: "Can be specialized into further speed, or to become more well rounded.",
+			descriptionJa: "さらなる速度強化、またはバランス型に特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -73,6 +78,7 @@ export const moaTree = {
 		{
 			name: "Natural Endurance",
 			description: "Increased Maximum Stamina",
+			descriptionJa: "最大スタミナが増加する",
 			rank: 1,
 			prerequisites: ["Moa"],
 			benefits: [
@@ -87,6 +93,7 @@ export const moaTree = {
 		{
 			name: "Catlike Grace",
 			description: "Increased Fall Damage Reduction",
+			descriptionJa: "落下ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -101,6 +108,7 @@ export const moaTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Strong Back"],
 			benefits: [
@@ -115,6 +123,7 @@ export const moaTree = {
 		{
 			name: "Soft Padding",
 			description: "Reduced Animal Threat",
+			descriptionJa: "動物に感知される脅威が減少する",
 			rank: 1,
 			prerequisites: ["Natural Endurance"],
 			benefits: [
@@ -129,6 +138,7 @@ export const moaTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Soft Padding", "Roaming Vitality"],
 			benefits: [
@@ -142,6 +152,7 @@ export const moaTree = {
 		{
 			name: "Roaming Vitality",
 			description: "Increased Stamina Regeneration",
+			descriptionJa: "スタミナ再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -156,6 +167,7 @@ export const moaTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption",
+			descriptionJa: "水消費が減少する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -170,6 +182,7 @@ export const moaTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration",
+			descriptionJa: "食料効果時間が延長され、最大ランクで放牧行動が有効になる",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -184,6 +197,7 @@ export const moaTree = {
 		{
 			name: "Balanced Pack",
 			description: "Increased Inventory Slots",
+			descriptionJa: "インベントリスロットが増加する",
 			rank: 1,
 			prerequisites: ["Riding Forward", "Perfect Pasturage"],
 			benefits: [
@@ -197,6 +211,7 @@ export const moaTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Catlike Grace", "Nurtured Recovery"],
 			benefits: [
@@ -210,6 +225,7 @@ export const moaTree = {
 		{
 			name: "Springful Step",
 			description: "Reduced Jumping Stamina Cost",
+			descriptionJa: "ジャンプ時のスタミナ消費が減少する",
 			rank: 1,
 			prerequisites: ["Natural Endurance"],
 			benefits: [
@@ -224,6 +240,7 @@ export const moaTree = {
 		{
 			name: "Racing Ready",
 			description: "Increased Movement Speed",
+			descriptionJa: "移動速度が増加する",
 			rank: 1,
 			prerequisites: ["Hydration Elasticity", "Springful Step"],
 			benefits: [
@@ -237,6 +254,7 @@ export const moaTree = {
 		{
 			name: "Protective Instincts",
 			description: "Enables Moa melee attack, increases Melee Attack Damage",
+			descriptionJa: "モアの近接攻撃を解放し、近接ダメージが増加する",
 			rank: 1,
 			prerequisites: ["Riding Forward"],
 			benefits: [
@@ -250,6 +268,7 @@ export const moaTree = {
 		{
 			name: "From The Ashes",
 			description: "Increased Maximum Health, at max rank spawns a Juvenile on Death",
+			descriptionJa: "最大HPが増加し、最大ランクで死亡時に幼体を召喚する",
 			rank: 1,
 			prerequisites: ["Catlike Grace"],
 			benefits: [
@@ -263,6 +282,7 @@ export const moaTree = {
 		{
 			name: "Puddle Jumper",
 			description: "Increased Movement Speed in Shallow Water",
+			descriptionJa: "浅瀬での移動速度が増加する",
 			rank: 1,
 			prerequisites: ["Hydration Elasticity"],
 			benefits: [
@@ -276,6 +296,7 @@ export const moaTree = {
 		{
 			name: "V Formation",
 			description: "Reduces Sprinting Stamina cost, at max rank grants Movement Speed Aura",
+			descriptionJa: "スプリント時のスタミナ消費が減少し、最大ランクで移動速度オーラを付与する",
 			rank: 1,
 			prerequisites: ["Roaming Vitality"],
 			benefits: [
@@ -289,6 +310,7 @@ export const moaTree = {
 		{
 			name: "Plainswalker",
 			description: "Increased Movement Speed in Deserts, and Heat Resistance",
+			descriptionJa: "砂漠での移動速度が増加し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Soft Padding"],
 			benefits: [
@@ -302,6 +324,7 @@ export const moaTree = {
 		{
 			name: "Pack Moa",
 			description: "Greatly increased Inventory Slots, reduced Movement Speed",
+			descriptionJa: "インベントリスロットが大幅に増加するが、移動速度が低下する",
 			rank: 1,
 			prerequisites: ["Strong Back"],
 			benefits: [

@@ -6,6 +6,7 @@ export const spearsTree = {
         {
             name: "Quick Thrust",
             description: "Increased melee attack speed",
+            descriptionJa: "槍の近接攻撃速度が上昇する",
             rank: 1,
             prerequisites: ["Strong Thrust I", "Efficient Crafter I"],
             benefits: [
@@ -19,6 +20,7 @@ export const spearsTree = {
         {
             name: "Strong Thrust I",
             description: "Increased melee attack damage",
+            descriptionJa: "槍の近接攻撃ダメージが増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -32,6 +34,7 @@ export const spearsTree = {
         {
             name: "Strong Thrust II",
             description: "Increased melee attack damage",
+            descriptionJa: "槍の近接攻撃ダメージがさらに増加する",
             rank: 2,
             prerequisites: ["Quick Thrust"],
             benefits: [
@@ -45,6 +48,7 @@ export const spearsTree = {
         {
             name: "Deadly Thrust I",
             description: "Increased critical hit multiplier on spears",
+            descriptionJa: "槍のクリティカルヒットダメージ倍率が増加する",
             rank: 2,
             prerequisites: ["Quick Thrust", "From Afar I"],
             benefits: [
@@ -57,6 +61,7 @@ export const spearsTree = {
         {
             name: "Deadly Thrust II",
             description: "Increased critical hit multiplier on spears",
+            descriptionJa: "槍のクリティカルヒットダメージ倍率がさらに増加する",
             rank: 2,
             prerequisites: ["Deadly Thrust I"],
             benefits: [
@@ -69,6 +74,7 @@ export const spearsTree = {
         {
             name: "Spear Quick Draw",
             description: "Increased aim speed",
+            descriptionJa: "槍のエイム速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -82,6 +88,7 @@ export const spearsTree = {
         {
             name: "From Afar I",
             description: "Increased ranged damage",
+            descriptionJa: "投擲槍のダメージが増加する",
             rank: 1,
             prerequisites: ["Spear Quick Draw", "Seasoned Spearman"],
             benefits: [
@@ -94,6 +101,7 @@ export const spearsTree = {
         {
             name: "From Afar II",
             description: "Increased ranged damage",
+            descriptionJa: "投擲槍のダメージがさらに増加する",
             rank: 2,
             prerequisites: ["From Afar I"],
             benefits: [
@@ -106,6 +114,7 @@ export const spearsTree = {
         {
             name: "Long Reach I",
             description: "Increased throw distance",
+            descriptionJa: "投擲槍の速度が増加する",
             rank: 3,
             prerequisites: ["There It Is"],
             benefits: [
@@ -118,6 +127,7 @@ export const spearsTree = {
         {
             name: "Long Reach II",
             description: "Increased throw distance",
+            descriptionJa: "投擲槍の速度がさらに増加する",
             rank: 4,
             prerequisites: ["Long Reach I"],
             benefits: [
@@ -130,6 +140,7 @@ export const spearsTree = {
         {
             name: "Quick Step",
             description: "Increased movespeed while aiming",
+            descriptionJa: "槍でエイム中の移動速度が上昇する",
             rank: 1,
             prerequisites: ["From Afar II"],
             benefits: [
@@ -143,6 +154,7 @@ export const spearsTree = {
         {
             name: "Seasoned Spearman",
             description: "Decreased stamina usage with spears",
+            descriptionJa: "槍アクションのスタミナ消費が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -156,6 +168,7 @@ export const spearsTree = {
         {
             name: "Efficient Crafter II",
             description: "Cheaper spear crafting",
+            descriptionJa: "槍のクラフトコストがさらに安くなる",
             rank: 3,
             prerequisites: ["Could Go All Day"],
             benefits: [
@@ -167,6 +180,7 @@ export const spearsTree = {
         {
             name: "Excellent Crafter I",
             description: "Crafted spears have increased durability",
+            descriptionJa: "クラフトした槍の耐久値が増加する",
             rank: 3,
             prerequisites: ["Deadly Thrust I"],
             benefits: [
@@ -178,6 +192,7 @@ export const spearsTree = {
         {
             name: "Spear Parry",
             description: "Take less melee damage when spear equipped",
+            descriptionJa: "槍装備時の近接ダメージ耐性が増加する",
             rank: 4,
             prerequisites: ["Efficient Crafter II"],
             benefits: [
@@ -190,6 +205,7 @@ export const spearsTree = {
         {
             name: "There It Is",
             description: "Thrown spears highlight in world",
+            descriptionJa: "投擲した槍がワールド上でハイライト表示される",
             rank: 3,
             prerequisites: ["Deadly Thrust I", "From Afar II", "From Afar I"],
             benefits: [
@@ -201,6 +217,7 @@ export const spearsTree = {
         {
             name: "Could Go All Day",
             description: "Increased stamina regen when spear equipped",
+            descriptionJa: "槍装備時のスタミナ再生速度が上昇する",
             rank: 3,
             prerequisites: ["Quick Thrust", "Deadly Thrust I"],
             benefits: [
@@ -213,6 +230,7 @@ export const spearsTree = {
         {
             name: "Deep Wounds",
             description: "Spear strikes cause bleeding over time",
+            descriptionJa: "槍の攻撃が出血効果を与えるチャンスがある",
             rank: 4,
             prerequisites: ["Long Reach I"],
             benefits: [
@@ -226,6 +244,7 @@ export const spearsTree = {
         {
             name: "Efficient Crafter I",
             description: "Cheaper spear crafting",
+            descriptionJa: "槍のクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -237,6 +256,7 @@ export const spearsTree = {
         {
             name: "Excellent Crafter II",
             description: "Crafted spears have increased durability",
+            descriptionJa: "クラフトした槍の耐久値がさらに増加する",
             rank: 4,
             prerequisites: ["Excellent Crafter I"],
             benefits: [

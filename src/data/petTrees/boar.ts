@@ -6,6 +6,7 @@ export const boarTree = {
 		{
 			name: "Charge!",
 			description: "Increased Movement Speed",
+			descriptionJa: "移動速度が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -19,6 +20,7 @@ export const boarTree = {
 		{
 			name: "Rip and Tear",
 			description: "Chance to apply Bleed on hit",
+			descriptionJa: "攻撃時に出血を付与するチャンスがある",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -32,6 +34,7 @@ export const boarTree = {
 		{
 			name: "Hunter's Mark",
 			description: "Attacks Mark target on hit, causing extra damage the next time they are hit",
+			descriptionJa: "攻撃時にターゲットをマークし、次の攻撃で追加ダメージを与える",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -45,6 +48,7 @@ export const boarTree = {
 		{
 			name: "Endless Hunger",
 			description: "Heals a percentage of life when killing targets",
+			descriptionJa: "敵を倒した際にHPの一定割合を回復する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity"],
 			benefits: [
@@ -58,6 +62,7 @@ export const boarTree = {
 		{
 			name: "Thump Thump",
 			description: "Attacks Cause Blunt Trauma",
+			descriptionJa: "攻撃時に鈍打トラウマを付与するチャンスがある",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -71,6 +76,7 @@ export const boarTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Boar"],
 			benefits: [
@@ -85,6 +91,7 @@ export const boarTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Boar"],
 			benefits: [
@@ -99,6 +106,7 @@ export const boarTree = {
 		{
 			name: "Boar",
 			description: "Can be specialized into aggressive combat roles.",
+			descriptionJa: "攻撃的な戦闘役割に特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -110,6 +118,7 @@ export const boarTree = {
 		{
 			name: "Natural Ferocity",
 			description: "Increased Melee Damage",
+			descriptionJa: "近接ダメージが増加する",
 			rank: 1,
 			prerequisites: ["Boar"],
 			benefits: [
@@ -124,6 +133,7 @@ export const boarTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Boar"],
 			benefits: [
@@ -138,6 +148,7 @@ export const boarTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Natural Ferocity", "Metabolic Preservation"],
 			benefits: [
@@ -152,6 +163,7 @@ export const boarTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Natural Ferocity"],
 			benefits: [
@@ -166,6 +178,7 @@ export const boarTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Wild Fortitude"],
 			benefits: [
@@ -180,6 +193,7 @@ export const boarTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Nurtured Recovery"],
 			benefits: [

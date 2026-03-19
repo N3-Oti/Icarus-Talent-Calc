@@ -6,6 +6,7 @@ export const chickenTree = {
 		{
 			name: "Calming Clucks",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -19,6 +20,7 @@ export const chickenTree = {
 		{
 			name: "Fed Well",
 			description: "Increased yield when skinned",
+			descriptionJa: "解体時の収量が増加する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -32,6 +34,7 @@ export const chickenTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Chicken"],
 			benefits: [
@@ -46,6 +49,7 @@ export const chickenTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Chicken"],
 			benefits: [
@@ -60,6 +64,7 @@ export const chickenTree = {
 		{
 			name: "Chicken",
 			description: "Can be specialized into further egg laying bonuses, or grown for feasting.",
+			descriptionJa: "産卵ボーナスの強化、または食肉用に育てることに特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -71,6 +76,7 @@ export const chickenTree = {
 		{
 			name: "Calming Presence",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Chicken"],
 			benefits: [
@@ -85,6 +91,7 @@ export const chickenTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Chicken"],
 			benefits: [
@@ -99,6 +106,7 @@ export const chickenTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Calming Presence", "Metabolic Preservation"],
 			benefits: [
@@ -113,6 +121,7 @@ export const chickenTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Calming Presence"],
 			benefits: [
@@ -127,6 +136,7 @@ export const chickenTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Wild Fortitude"],
 			benefits: [
@@ -141,6 +151,7 @@ export const chickenTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Nurtured Recovery"],
 			benefits: [
@@ -155,6 +166,7 @@ export const chickenTree = {
 		{
 			name: "Leghorn",
 			description: "Increased Egg Laying Speed",
+			descriptionJa: "産卵速度が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -168,6 +180,7 @@ export const chickenTree = {
 		{
 			name: "Healthy Hen",
 			description: "Reduces Egg laying resources required",
+			descriptionJa: "産卵に必要なリソース消費が減少する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -181,6 +194,7 @@ export const chickenTree = {
 		{
 			name: "Soft Patters",
 			description: "Reduced Animal Threat",
+			descriptionJa: "動物に感知される脅威が減少する",
 			rank: 1,
 			prerequisites: ["Calming Presence"],
 			benefits: [

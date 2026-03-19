@@ -6,6 +6,7 @@ export const explorationTree = {
         {
             name: "Robust Explorer",
             description: "Increase to base health",
+            descriptionJa: "基本体力が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -19,6 +20,7 @@ export const explorationTree = {
         {
             name: "Cutting It Close",
             description: "Increased movespeed in a drop's final 15 minutes",
+            descriptionJa: "ドロップ残り15分間の移動速度が上昇する",
             rank: 3,
             prerequisites: ["Field Medic"],
             benefits: [
@@ -30,6 +32,7 @@ export const explorationTree = {
         {
             name: "Steady Breathing",
             description: "Reduced oxygen consumption rate",
+            descriptionJa: "酸素消費率が減少する",
             rank: 1,
             prerequisites: ["Robust Explorer"],
             benefits: [
@@ -43,6 +46,7 @@ export const explorationTree = {
         {
             name: "Carbo Loaded",
             description: "Reduced hunger rate",
+            descriptionJa: "空腹速度が減少する",
             rank: 1,
             prerequisites: ["Robust Explorer", "Swift Survivor"],
             benefits: [
@@ -56,6 +60,7 @@ export const explorationTree = {
         {
             name: "Water Retention",
             description: "Reduced thirst rate",
+            descriptionJa: "喉の渇き速度が減少する",
             rank: 1,
             prerequisites: ["Swift Survivor"],
             benefits: [
@@ -69,6 +74,7 @@ export const explorationTree = {
         {
             name: "Weathering The Storm",
             description: "Increased resistance to exposure",
+            descriptionJa: "暴露耐性が増加する",
             rank: 1,
             prerequisites: ["Storm Chaser"],
             benefits: [
@@ -82,6 +88,7 @@ export const explorationTree = {
         {
             name: "Quick Refresh",
             description: "Increased recovery from exposure",
+            descriptionJa: "暴露からの回復速度が上昇する",
             rank: 2,
             prerequisites: ["Weathering The Storm"],
             benefits: [
@@ -95,6 +102,7 @@ export const explorationTree = {
         {
             name: "Field Medic",
             description: "Gives revived players more health",
+            descriptionJa: "蘇生したプレイヤーの体力がより多く回復する",
             rank: 2,
             prerequisites: ["Carbo Loaded", "Water Retention"],
             benefits: [
@@ -107,6 +115,7 @@ export const explorationTree = {
         {
             name: "And Some For Me",
             description: "Reviving a player also regenerates your health",
+            descriptionJa: "プレイヤーを蘇生すると自分も体力が再生する",
             rank: 3,
             prerequisites: ["Field Medic"],
             benefits: [
@@ -118,6 +127,7 @@ export const explorationTree = {
         {
             name: "Plyometrics",
             description: "Reduced jumping stamina cost",
+            descriptionJa: "ジャンプのスタミナコストが減少する",
             rank: 1,
             prerequisites: ["Carbo Loaded", "Steady Breathing"],
             benefits: [
@@ -131,6 +141,7 @@ export const explorationTree = {
         {
             name: "Cushioned Fall",
             description: "Reduced chance of sprain from fall damage",
+            descriptionJa: "落下ダメージによる捻挫のチャンスが減少する",
             rank: 3,
             prerequisites: ["Three Point Landing"],
             benefits: [
@@ -143,6 +154,7 @@ export const explorationTree = {
         {
             name: "Three Point Landing",
             description: "Reduced fall damage",
+            descriptionJa: "落下ダメージが減少する",
             rank: 2,
             prerequisites: ["Plyometrics"],
             benefits: [
@@ -156,6 +168,7 @@ export const explorationTree = {
         {
             name: "Arctic Master",
             description: "Increased cold resistance and movespeed in Arctic biomes",
+            descriptionJa: "北極バイオームでの寒冷耐性と移動速度が増加する",
             rank: 4,
             prerequisites: ["Pack Lightly"],
             benefits: [
@@ -167,6 +180,7 @@ export const explorationTree = {
         {
             name: "Desert Master",
             description: "Decreased thirst and increased movespeed in Desert biomes",
+            descriptionJa: "砂漠バイオームでの喉の渇きが減少し、移動速度が増加する",
             rank: 4,
             prerequisites: ["Pack Lightly"],
             benefits: [
@@ -178,6 +192,7 @@ export const explorationTree = {
         {
             name: "Forest Master",
             description: "Increased health regen and movespeed in Forest biomes",
+            descriptionJa: "森バイオームでの体力再生と移動速度が増加する",
             rank: 4,
             prerequisites: ["Pack Lightly"],
             benefits: [
@@ -189,6 +204,7 @@ export const explorationTree = {
         {
             name: "Strong Bones",
             description: "Increased sprain recovery speed",
+            descriptionJa: "捻挫からの回復速度が上昇する",
             rank: 3,
             prerequisites: ["Cushioned Fall"],
             benefits: [
@@ -202,6 +218,7 @@ export const explorationTree = {
         {
             name: "Storm Chaser",
             description: "Increased stamina regen during storms",
+            descriptionJa: "嵐の中でのスタミナ再生速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -215,6 +232,7 @@ export const explorationTree = {
         {
             name: "Like It With the Lights Off",
             description: "Hunger, thirst and oxygen drain much more slowly at night",
+            descriptionJa: "夜間の空腹・喉の渇き・酸素消費が大幅に遅くなる",
             rank: 3,
             prerequisites: ["Night Owl"],
             benefits: [
@@ -226,6 +244,7 @@ export const explorationTree = {
         {
             name: "Makes the Dream Work",
             description: "Increased shared XP from party members",
+            descriptionJa: "パーティメンバーからの共有XPが増加する",
             rank: 4,
             prerequisites: ["Field Medic"],
             benefits: [
@@ -237,6 +256,7 @@ export const explorationTree = {
         {
             name: "Calming Presence",
             description: "Reduces oxygen consumption for allies within 20m",
+            descriptionJa: "20m以内の味方の酸素消費が減少する",
             rank: 2,
             prerequisites: ["Steady Breathing"],
             benefits: [
@@ -248,6 +268,7 @@ export const explorationTree = {
         {
             name: "Night Owl",
             description: "Increased movespeed at night",
+            descriptionJa: "夜間の移動速度が上昇する",
             rank: 3,
             prerequisites: ["Pack Lightly"],
             benefits: [
@@ -260,6 +281,7 @@ export const explorationTree = {
         {
             name: "Go With The Flow",
             description: "Increased swim speed",
+            descriptionJa: "水泳速度が上昇する",
             rank: 2,
             prerequisites: ["Pack Lightly"],
             benefits: [
@@ -272,6 +294,7 @@ export const explorationTree = {
         {
             name: "Amphibian",
             description: "Reduced oxygen usage underwater",
+            descriptionJa: "水中での酸素消費が減少する",
             rank: 1,
             prerequisites: ["Go With The Flow"],
             benefits: [
@@ -283,6 +306,7 @@ export const explorationTree = {
         {
             name: "Swift Survivor",
             description: "Increase to base movespeed",
+            descriptionJa: "基本移動速度が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -296,6 +320,7 @@ export const explorationTree = {
         {
             name: "Pack Lightly",
             description: "Increased inventory weight capacity",
+            descriptionJa: "インベントリの重量容量が増加する",
             rank: 2,
             prerequisites: [],
             benefits: [

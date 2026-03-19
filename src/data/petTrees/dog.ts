@@ -6,6 +6,7 @@ export const dogTree = {
 		{
 			name: "Keen for Adventure",
 			description: "Increases Movement Speed, at max rank grants Oxygen Consumption Reduction Aura",
+			descriptionJa: "移動速度が増加し、最大ランクで酸素消費削減オーラを付与する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -19,6 +20,7 @@ export const dogTree = {
 		{
 			name: "Well Trained",
 			description: "Increases coziness bonus, learns Fetch at max level",
+			descriptionJa: "居心地ボーナスが増加し、最大レベルでフェッチを習得する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -32,6 +34,7 @@ export const dogTree = {
 		{
 			name: "Hunter's Mark",
 			description: "Attacks Mark target on hit, causing extra damage the next time they are hit",
+			descriptionJa: "攻撃時にターゲットをマークし、次の攻撃で追加ダメージを与える",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -45,6 +48,7 @@ export const dogTree = {
 		{
 			name: "Endless Hunger",
 			description: "Heals a percentage of life when killing targets",
+			descriptionJa: "敵を倒した際にHPの一定割合を回復する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity"],
 			benefits: [
@@ -58,6 +62,7 @@ export const dogTree = {
 		{
 			name: "Coordinated Attacks",
 			description: "Highlights hit targets for a short duration",
+			descriptionJa: "攻撃したターゲットを短時間ハイライト表示する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity"],
 			benefits: [
@@ -71,6 +76,7 @@ export const dogTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Dog"],
 			benefits: [
@@ -85,6 +91,7 @@ export const dogTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Dog"],
 			benefits: [
@@ -99,6 +106,7 @@ export const dogTree = {
 		{
 			name: "Dog",
 			description: "Can be specialized into aggressive combat roles or coziness bonus.",
+			descriptionJa: "攻撃的な戦闘役割や居心地ボーナスに特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -110,6 +118,7 @@ export const dogTree = {
 		{
 			name: "Natural Ferocity",
 			description: "Increased Melee Damage",
+			descriptionJa: "近接ダメージが増加する",
 			rank: 1,
 			prerequisites: ["Dog"],
 			benefits: [
@@ -124,6 +133,7 @@ export const dogTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Dog"],
 			benefits: [
@@ -138,6 +148,7 @@ export const dogTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Natural Ferocity"],
 			benefits: [
@@ -152,6 +163,7 @@ export const dogTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Natural Ferocity", "Wild Fortitude"],
 			benefits: [
@@ -166,6 +178,7 @@ export const dogTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Nurtured Recovery"],
 			benefits: [
@@ -180,6 +193,7 @@ export const dogTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Metabolic Preservation"],
 			benefits: [

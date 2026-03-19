@@ -6,6 +6,7 @@ export const toolsTree = {
         {
             name: "Good As New",
             description: "Chance to restore pickaxe's durability on breaking hit",
+            descriptionJa: "ツルハシが壊れる際に耐久値が回復するチャンスがある",
             rank: 4,
             prerequisites: ["Strong Pick"],
             benefits: [
@@ -17,6 +18,7 @@ export const toolsTree = {
         {
             name: "Speedy Mining",
             description: "Increased pickaxe swing speed",
+            descriptionJa: "ツルハシの振り速度が上昇する",
             rank: 1,
             prerequisites: ["Picksmith I"],
             benefits: [
@@ -30,6 +32,7 @@ export const toolsTree = {
         {
             name: "Miner Damage",
             description: "Increased pickaxe melee damage",
+            descriptionJa: "ツルハシの近接ダメージが増加する",
             rank: 1,
             prerequisites: ["Careful Hits II", "Speedy Mining"],
             benefits: [
@@ -43,6 +46,7 @@ export const toolsTree = {
         {
             name: "Speed Chopper",
             description: "Increased axe swing speed",
+            descriptionJa: "斧の振り速度が上昇する",
             rank: 1,
             prerequisites: ["Discount Axes I", "Hardy Axe Heads I"],
             benefits: [
@@ -56,6 +60,7 @@ export const toolsTree = {
         {
             name: "Big Pick",
             description: "Increased pickaxe mining radius",
+            descriptionJa: "ツルハシの採掘範囲が増加する",
             rank: 2,
             prerequisites: ["Miner Damage"],
             benefits: [
@@ -68,6 +73,7 @@ export const toolsTree = {
         {
             name: "Picksmith II",
             description: "Even cheaper pickaxe crafting",
+            descriptionJa: "ツルハシのクラフトコストがさらに安くなる",
             rank: 2,
             prerequisites: ["Big Pick"],
             benefits: [
@@ -79,6 +85,7 @@ export const toolsTree = {
         {
             name: "Strong Pick",
             description: "Crafted pickaxes have increased durability",
+            descriptionJa: "クラフトしたツルハシの耐久値が増加する",
             rank: 3,
             prerequisites: ["Picksmith II"],
             benefits: [
@@ -91,6 +98,7 @@ export const toolsTree = {
         {
             name: "Miner Endurance I",
             description: "Reduced stamina cost on pickaxes",
+            descriptionJa: "ツルハシアクションのスタミナ消費が減少する",
             rank: 2,
             prerequisites: ["Speedy Mining"],
             benefits: [
@@ -104,6 +112,7 @@ export const toolsTree = {
         {
             name: "Careful Hits II",
             description: "Reduced durability loss on pickaxes",
+            descriptionJa: "ツルハシの耐久消費が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -117,6 +126,7 @@ export const toolsTree = {
         {
             name: "Berserker",
             description: "Greatly increased combat abilities with axes but increases stamina and durability usage",
+            descriptionJa: "斧の戦闘能力が大幅に上昇するが、スタミナと耐久消費も増加する",
             rank: 2,
             prerequisites: ["Discount Axes II"],
             benefits: [
@@ -128,6 +138,7 @@ export const toolsTree = {
         {
             name: "Hardy Axe Heads I",
             description: "Reduced durability loss on axes",
+            descriptionJa: "斧の耐久消費が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -141,6 +152,7 @@ export const toolsTree = {
         {
             name: "Extra Sharp",
             description: "Increased felling damage with axes",
+            descriptionJa: "斧の伐採ダメージが増加する",
             rank: 2,
             prerequisites: ["Speed Chopper"],
             benefits: [
@@ -154,6 +166,7 @@ export const toolsTree = {
         {
             name: "Controlled Rage",
             description: "Reduced penalties for Berserking, increased wood from felling",
+            descriptionJa: "バーサーカーのペナルティが緩和され、伐採で得られる木材が増加する",
             rank: 3,
             prerequisites: ["Berserker"],
             benefits: [
@@ -165,6 +178,7 @@ export const toolsTree = {
         {
             name: "Discount Axes II",
             description: "Cheaper axe crafting",
+            descriptionJa: "斧のクラフトコストがさらに安くなる",
             rank: 2,
             prerequisites: ["Extra Sharp"],
             benefits: [
@@ -176,6 +190,7 @@ export const toolsTree = {
         {
             name: "Hard Axe",
             description: "Crafted axes have increased durability",
+            descriptionJa: "クラフトした斧の耐久値が増加する",
             rank: 3,
             prerequisites: ["Discount Axes II"],
             benefits: [
@@ -188,6 +203,7 @@ export const toolsTree = {
         {
             name: "Think of All the Fiber",
             description: "Reduced durability loss on sickles",
+            descriptionJa: "鎌の耐久消費が減少する",
             rank: 2,
             prerequisites: ["Speed Chopper", "Speedy Mining"],
             benefits: [
@@ -200,6 +216,7 @@ export const toolsTree = {
         {
             name: "Lumberjack Endurance",
             description: "Reduced stamina cost with axes",
+            descriptionJa: "斧アクションのスタミナ消費が減少する",
             rank: 2,
             prerequisites: ["Speed Chopper"],
             benefits: [
@@ -213,6 +230,7 @@ export const toolsTree = {
         {
             name: "Picksmith I",
             description: "Cheaper pickaxe crafting",
+            descriptionJa: "ツルハシのクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -224,6 +242,7 @@ export const toolsTree = {
         {
             name: "Discount Axes I",
             description: "Cheaper axe crafting",
+            descriptionJa: "斧のクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -235,6 +254,7 @@ export const toolsTree = {
         {
             name: "Careful Hits",
             description: "Reduced durability loss on pickaxes",
+            descriptionJa: "ツルハシの耐久消費がさらに減少する",
             rank: 1,
             prerequisites: ["Strong Pick"],
             benefits: [
@@ -248,6 +268,7 @@ export const toolsTree = {
         {
             name: "Hardy Axe Heads II",
             description: "Reduced durability loss on axes",
+            descriptionJa: "斧の耐久消費がさらに減少する",
             rank: 1,
             prerequisites: ["Hard Axe"],
             benefits: [
@@ -261,6 +282,7 @@ export const toolsTree = {
         {
             name: "Miner Endurance II",
             description: "Reduced stamina cost on pickaxes",
+            descriptionJa: "ツルハシアクションのスタミナ消費がさらに減少する",
             rank: 1,
             prerequisites: ["Careful Hits"],
             benefits: [

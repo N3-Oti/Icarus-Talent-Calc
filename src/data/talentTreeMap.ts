@@ -13,6 +13,7 @@ import {spearsTree} from "./talentTrees/spears.ts";
 import {bladesTree} from "./talentTrees/blades.ts";
 import {firearmsTree} from "./talentTrees/firearms.ts";
 import {soloTree} from "./talentTrees/solo.ts";
+import {geneticsTree} from "./talentTrees/genetics.ts";
 import {boarTree} from "./petTrees/boar.ts";
 import {wolfTree} from "./petTrees/wolf.ts";
 import {catTree} from "./petTrees/cat.ts";
@@ -68,6 +69,7 @@ export const Trees: Record<string, TreeInfo> = {
     Cooking: {name: "Cooking/Farming", category: Categories.Survival},
     Exploration: {name: "Exploration", category: Categories.Adventure},
     Husbandry: {name: "Husbandry", category: Categories.Adventure},
+    Genetics: {name: "Genetics", category: Categories.Adventure},
     Fishing: {name: "Fishing", category: Categories.Adventure},
     Repairing: {name: "Repairing", category: Categories.Habitation},
     Tools: {name: "Tools", category: Categories.Habitation},
@@ -105,6 +107,7 @@ export const talentTreeMap: Partial<Record<keyof typeof Trees, { talents: Talent
     Cooking: cookingTree,
     Exploration: explorationTree,
     Husbandry: husbandryTree,
+    Genetics: geneticsTree,
     Fishing: fishingTree,
     Repairing: repairingTree,
     Tools: toolsTree,

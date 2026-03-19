@@ -6,6 +6,7 @@ export const sheepTree = {
 		{
 			name: "Calming Baas",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -19,6 +20,7 @@ export const sheepTree = {
 		{
 			name: "Fed Well",
 			description: "Increased Wool Growth",
+			descriptionJa: "羊毛の成長速度が増加する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -32,6 +34,7 @@ export const sheepTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Sheep"],
 			benefits: [
@@ -46,6 +49,7 @@ export const sheepTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Sheep"],
 			benefits: [
@@ -60,6 +64,7 @@ export const sheepTree = {
 		{
 			name: "Sheep",
 			description: "Can be specialized into further wool growth or defensive bonuses.",
+			descriptionJa: "羊毛成長の強化、または防御ボーナスに特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -71,6 +76,7 @@ export const sheepTree = {
 		{
 			name: "Calming Presence",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Sheep"],
 			benefits: [
@@ -85,6 +91,7 @@ export const sheepTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Sheep"],
 			benefits: [
@@ -99,6 +106,7 @@ export const sheepTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Calming Presence"],
 			benefits: [
@@ -113,6 +121,7 @@ export const sheepTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Calming Presence", "Wild Fortitude"],
 			benefits: [
@@ -127,6 +136,7 @@ export const sheepTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Nurtured Recovery"],
 			benefits: [
@@ -141,6 +151,7 @@ export const sheepTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Metabolic Preservation"],
 			benefits: [
@@ -155,6 +166,7 @@ export const sheepTree = {
 		{
 			name: "Thick Hide",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Calming Presence"],
 			benefits: [
@@ -168,6 +180,7 @@ export const sheepTree = {
 		{
 			name: "Healthy Mutton",
 			description: "Reduces wool growth resources required",
+			descriptionJa: "羊毛成長に必要なリソース消費が減少する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -181,6 +194,7 @@ export const sheepTree = {
 		{
 			name: "In Sheeps Clothing",
 			description: "Reduced Animal Threat",
+			descriptionJa: "動物に感知される脅威が減少する",
 			rank: 1,
 			prerequisites: ["Calming Presence"],
 			benefits: [

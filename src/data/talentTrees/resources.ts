@@ -6,6 +6,7 @@ export const resourcesTree = {
         {
             name: "Friend Of The Trees",
             description: "Reduced damage from falling trees",
+            descriptionJa: "倒れてくる木からのダメージが減少する",
             rank: 4,
             prerequisites: ["Seasoned Logsman"],
             benefits: [
@@ -17,6 +18,7 @@ export const resourcesTree = {
         {
             name: "Rock Star",
             description: "Increased stone from mining",
+            descriptionJa: "採掘で得られる石の量が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -30,6 +32,7 @@ export const resourcesTree = {
         {
             name: "Waste Not",
             description: "Receive stone in addition to resources when mining ore deposits",
+            descriptionJa: "鉱石採掘時に追加で石を受け取るチャンスがある",
             rank: 2,
             prerequisites: ["Rock Star"],
             benefits: [
@@ -43,6 +46,7 @@ export const resourcesTree = {
         {
             name: "All The Good Stuff",
             description: "Receive secondary resources from bushes",
+            descriptionJa: "茂みから副次的な資源を受け取るチャンスがある",
             rank: 2,
             prerequisites: ["Skilled Picker"],
             benefits: [
@@ -56,6 +60,7 @@ export const resourcesTree = {
         {
             name: "Lumber Yield",
             description: "Increased wood from felling",
+            descriptionJa: "伐採で得られる木材が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -69,6 +74,7 @@ export const resourcesTree = {
         {
             name: "Lucky Strike",
             description: "Chance to mine a deposit in one hit",
+            descriptionJa: "1ヒットで鉱床を採掘できるチャンスがある",
             rank: 4,
             prerequisites: ["Unburdened", "Iron Miner"],
             benefits: [
@@ -80,6 +86,7 @@ export const resourcesTree = {
         {
             name: "Exotic Sprinter",
             description: "Increased movespeed with exotics in your inventory",
+            descriptionJa: "エキゾチックを持ちながらの移動速度が増加する",
             rank: 3,
             prerequisites: ["Dense Packing II"],
             benefits: [
@@ -93,6 +100,7 @@ export const resourcesTree = {
         {
             name: "Peerless Lumberjack",
             description: "Chance to instantly chop up a tree",
+            descriptionJa: "1撃で木を切り倒せるチャンスがある",
             rank: 4,
             prerequisites: ["Seasoned Logsman"],
             benefits: [
@@ -104,6 +112,7 @@ export const resourcesTree = {
         {
             name: "Skilled Picker",
             description: "Increased yield from harvesting by hand",
+            descriptionJa: "手での収穫収量が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -118,6 +127,7 @@ export const resourcesTree = {
         {
             name: "Oxygen Thief",
             description: "Increased yield from oxite nodes",
+            descriptionJa: "オキサイトノードからの収量が増加する",
             rank: 2,
             prerequisites: ["Rock Star"],
             benefits: [
@@ -131,6 +141,7 @@ export const resourcesTree = {
         {
             name: "Movin' Wood",
             description: "Decreases wood weight in your inventory",
+            descriptionJa: "インベントリ内の木材の重量が減少する",
             rank: 2,
             prerequisites: ["Wood Breakdown"],
             benefits: [
@@ -145,6 +156,7 @@ export const resourcesTree = {
         {
             name: "Slinging Stone",
             description: "Decreases stone weight in your inventory",
+            descriptionJa: "インベントリ内の石の重量が減少する",
             rank: 3,
             prerequisites: ["Rock Star"],
             benefits: [
@@ -159,6 +171,7 @@ export const resourcesTree = {
         {
             name: "Exotic Power",
             description: "Reduces exotics weight in your inventory",
+            descriptionJa: "インベントリ内のエキゾチックの重量が減少する",
             rank: 2,
             prerequisites: ["Dense Packing I"],
             benefits: [
@@ -173,6 +186,7 @@ export const resourcesTree = {
         {
             name: "Iron Miner",
             description: "Increased yield from iron deposits",
+            descriptionJa: "鉄鉱床からの収量が増加する",
             rank: 3,
             prerequisites: ["Slinging Stone"],
             benefits: [
@@ -186,6 +200,7 @@ export const resourcesTree = {
         {
             name: "Unburdened",
             description: "Decreased ore weight in your inventory",
+            descriptionJa: "インベントリ内の鉱石の重量が減少する",
             rank: 3,
             prerequisites: ["Slinging Stone"],
             benefits: [
@@ -200,6 +215,7 @@ export const resourcesTree = {
         {
             name: "Carry On",
             description: "Reduced encumberance penalty",
+            descriptionJa: "過積載ペナルティが減少する",
             rank: 1,
             prerequisites: ["Dense Packing I"],
             benefits: [
@@ -214,6 +230,7 @@ export const resourcesTree = {
         {
             name: "Dense Packing I",
             description: "Increased inventory weight capacity",
+            descriptionJa: "インベントリの重量容量が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -227,6 +244,7 @@ export const resourcesTree = {
         {
             name: "Seasoned Logsman",
             description: "Chopped wood is automatically added to your inventory",
+            descriptionJa: "切り倒した木材が自動的にインベントリに追加される",
             rank: 4,
             prerequisites: ["Wood Breakdown"],
             benefits: [
@@ -238,6 +256,7 @@ export const resourcesTree = {
         {
             name: "Wood Breakdown",
             description: "Unlocks the ability to turn wood into sticks",
+            descriptionJa: "木材を棒に変換できるようになる",
             rank: 2,
             prerequisites: ["Lumber Yield"],
             benefits: [
@@ -249,6 +268,7 @@ export const resourcesTree = {
         {
             name: "Dense Packing II",
             description: "Increased inventory weight capacity",
+            descriptionJa: "インベントリの重量容量がさらに増加する",
             rank: 3,
             prerequisites: ["Dense Packing I"],
             benefits: [

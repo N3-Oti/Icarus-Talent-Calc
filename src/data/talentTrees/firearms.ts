@@ -6,6 +6,7 @@ export const firearmsTree = {
         {
             name: "Featherweight",
             description: "Firearms weigh less in your inventory",
+            descriptionJa: "銃器のインベントリ重量が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -17,6 +18,7 @@ export const firearmsTree = {
         {
             name: "Light Firearm Powerup",
             description: "Increased damage with pistols",
+            descriptionJa: "ピストル・SMGのダメージが上昇する",
             rank: 2,
             prerequisites: ["Light Firearm Handling"],
             benefits: [
@@ -30,6 +32,7 @@ export const firearmsTree = {
         {
             name: "Rifle Redress",
             description: "Increased damage with rifles",
+            descriptionJa: "ライフルのダメージが上昇する",
             rank: 2,
             prerequisites: ["Rifle Re-Up"],
             benefits: [
@@ -43,6 +46,7 @@ export const firearmsTree = {
         {
             name: "Shotgun Sovereign",
             description: "Increased damage with shotguns",
+            descriptionJa: "ショットガンのダメージが上昇する",
             rank: 2,
             prerequisites: ["Shotgun Handling"],
             benefits: [
@@ -56,6 +60,7 @@ export const firearmsTree = {
         {
             name: "Focus Fire",
             description: "Reduced bullet spread",
+            descriptionJa: "弾の拡散が減少する",
             rank: 3,
             prerequisites: ["Freebies", "Gun Runner"],
             benefits: [
@@ -68,6 +73,7 @@ export const firearmsTree = {
         {
             name: "Light Firearm Handling",
             description: "Faster pistol reloading",
+            descriptionJa: "ピストル・SMGのリロード速度が上昇する",
             rank: 1,
             prerequisites: ["Light Firearm Proficiency"],
             benefits: [
@@ -81,6 +87,7 @@ export const firearmsTree = {
         {
             name: "Shotgun Handling",
             description: "Faster shotgun reloading",
+            descriptionJa: "ショットガンのリロード速度が上昇する",
             rank: 1,
             prerequisites: ["Shotgun Slash"],
             benefits: [
@@ -94,6 +101,7 @@ export const firearmsTree = {
         {
             name: "Rifle Re-Up",
             description: "Faster rifle reloading",
+            descriptionJa: "ライフルのリロード速度が上昇する",
             rank: 1,
             prerequisites: ["Rifle Reduction"],
             benefits: [
@@ -107,6 +115,7 @@ export const firearmsTree = {
         {
             name: "Rifle Reduction",
             description: "Cheaper bulk rifle ammo crafting",
+            descriptionJa: "ライフル弾薬のバルククラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -118,6 +127,7 @@ export const firearmsTree = {
         {
             name: "Shotgun Slash",
             description: "Cheaper bulk shotgun ammo crafting",
+            descriptionJa: "ショットガン弾薬のバルククラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -129,6 +139,7 @@ export const firearmsTree = {
         {
             name: "Gunsmith",
             description: "Reduced firearm durability loss",
+            descriptionJa: "銃器の耐久消費が減少する",
             rank: 3,
             prerequisites: ["Light Firearm Powerup", "Freebies"],
             benefits: [
@@ -142,6 +153,7 @@ export const firearmsTree = {
         {
             name: "Gun Runner",
             description: "Faster movespeed with firearms",
+            descriptionJa: "銃器装備時の移動速度が上昇する",
             rank: 1,
             prerequisites: ["Featherweight"],
             benefits: [
@@ -154,6 +166,7 @@ export const firearmsTree = {
         {
             name: "Sharpshooter",
             description: "Increased critical hit multiplier on firearms",
+            descriptionJa: "銃器のクリティカルヒット倍率が上昇する",
             rank: 4,
             prerequisites: ["Freebies", "Gunsmith", "Focus Fire"],
             benefits: [
@@ -167,6 +180,7 @@ export const firearmsTree = {
         {
             name: "How Many Shots Did You Count?",
             description: "Chance to not consume ammo",
+            descriptionJa: "弾薬を消費しないチャンスがある",
             rank: 4,
             prerequisites: ["Gunsmith", "Sharpshooter"],
             benefits: [
@@ -179,6 +193,7 @@ export const firearmsTree = {
         {
             name: "Freebies",
             description: "Chance to craft double ammo",
+            descriptionJa: "弾薬をクラフトする際に2倍作れるチャンスがある",
             rank: 2,
             prerequisites: ["Shotgun Sovereign", "Rifle Redress"],
             benefits: [
@@ -190,6 +205,7 @@ export const firearmsTree = {
         {
             name: "New Life",
             description: "Chance that gun gains durability on a breaking shot",
+            descriptionJa: "銃が壊れる際に耐久値を回復するチャンスがある",
             rank: 4,
             prerequisites: ["Focus Fire", "Sharpshooter"],
             benefits: [
@@ -201,6 +217,7 @@ export const firearmsTree = {
         {
             name: "Light Firearm Proficiency",
             description: "Cheaper bulk pistol ammo crafting",
+            descriptionJa: "ピストル・SMG弾薬のバルククラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [

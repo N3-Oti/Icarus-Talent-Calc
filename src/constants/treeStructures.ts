@@ -11,6 +11,7 @@ export interface FullTrack {
 export interface TalentData {
     name: string
     description: string
+    descriptionJa?: string
     rank: number
     prerequisites: (string | string[])[]
     benefits: { value: number; desc: string; category: string }[][];

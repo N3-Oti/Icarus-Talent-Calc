@@ -6,6 +6,7 @@ export const repairingTree = {
         {
             name: "Hardy Whacker",
             description: "Reduced durability loss on fire whacker",
+            descriptionJa: "ファイアウォッカーの耐久消費が減少する",
             rank: 1,
             prerequisites: ["Speedy Whacks"],
             benefits: [
@@ -19,6 +20,7 @@ export const repairingTree = {
         {
             name: "Speedy Whacks",
             description: "Increased extinguishing speed with fire whacker",
+            descriptionJa: "ファイアウォッカーの消火速度が上昇する",
             rank: 1,
             prerequisites: ["Ready To Work"],
             benefits: [
@@ -32,6 +34,7 @@ export const repairingTree = {
         {
             name: "First Responder",
             description: "Increased movespeed with fire whacker equipped",
+            descriptionJa: "ファイアウォッカー装備時の移動速度が上昇する",
             rank: 1,
             prerequisites: ["Ready To Work"],
             benefits: [
@@ -43,6 +46,7 @@ export const repairingTree = {
         {
             name: "Hammer Time I",
             description: "Increased repair hammer speed",
+            descriptionJa: "修理ハンマーの速度が上昇する",
             rank: 1,
             prerequisites: ["Ready To Work"],
             benefits: [
@@ -56,6 +60,7 @@ export const repairingTree = {
         {
             name: "Hardy Hammer",
             description: "Reduced durability loss on repair hammer",
+            descriptionJa: "修理ハンマーの耐久消費が減少する",
             rank: 2,
             prerequisites: ["Hammer Time I", "Boneshatter"],
             benefits: [
@@ -68,6 +73,7 @@ export const repairingTree = {
         {
             name: "With One Swing",
             description: "Chance to instantly repair building pieces",
+            descriptionJa: "建築ピースを即座に修理するチャンスがある",
             rank: 3,
             prerequisites: ["Whacker Endurance", "Hardy Hammer"],
             benefits: [
@@ -79,6 +85,7 @@ export const repairingTree = {
         {
             name: "Whacker Endurance",
             description: "Increased stamina regen with fire whacker equipped",
+            descriptionJa: "ファイアウォッカー装備時のスタミナ再生速度が上昇する",
             rank: 2,
             prerequisites: ["First Responder", "Boneshatter"],
             benefits: [
@@ -91,6 +98,7 @@ export const repairingTree = {
         {
             name: "Lingering Extinguishing",
             description: "Recently extinguished building pieces remain fire resistant for a time",
+            descriptionJa: "最近消火した建築ピースがしばらく燃えにくくなる",
             rank: 3,
             prerequisites: ["Hardy Whacker", "Whacker Endurance"],
             benefits: [
@@ -102,6 +110,7 @@ export const repairingTree = {
         {
             name: "Hard to Reach",
             description: "Gives ability to throw a fire whacker",
+            descriptionJa: "ファイアウォッカーを投げられるようになる",
             rank: 4,
             prerequisites: ["Lingering Extinguishing"],
             benefits: [
@@ -113,6 +122,7 @@ export const repairingTree = {
         {
             name: "Better Than New",
             description: "Recently repaired building pieces are resistant to storm damage for a time",
+            descriptionJa: "最近修理した建築ピースがしばらく嵐のダメージに耐性を持つ",
             rank: 3,
             prerequisites: ["Hardy Hammer"],
             benefits: [
@@ -124,6 +134,7 @@ export const repairingTree = {
         {
             name: "Hammer Time II",
             description: "Increased repair hammer speed",
+            descriptionJa: "修理ハンマーの速度がさらに上昇する",
             rank: 3,
             prerequisites: ["Better Than New"],
             benefits: [
@@ -136,6 +147,7 @@ export const repairingTree = {
         {
             name: "Ready To Work",
             description: "Increased stamina regeneration",
+            descriptionJa: "スタミナ再生速度が上昇する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -149,6 +161,7 @@ export const repairingTree = {
         {
             name: "Boneshatter",
             description: "Increased damage against creature bones",
+            descriptionJa: "クリーチャーの骨へのダメージが増加する",
             rank: 1,
             prerequisites: ["First Responder", "Hammer Time I"],
             benefits: [

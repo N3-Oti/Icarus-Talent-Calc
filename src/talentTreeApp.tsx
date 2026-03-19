@@ -1,5 +1,6 @@
 import {useEffect, useRef, useState} from 'react';
 import {Categories, talentTreeMap, Trees} from "./data/talentTreeMap.ts";
+import { useLanguage } from './contexts/languageContext.tsx';
 import {
     Alert,
     Box,
@@ -32,6 +33,7 @@ import {getPointsSpentInPool, getPointsSpentInTree} from "./utils/pointsSpent.ts
 
 
 export default function TalentTreeApp() {
+    const { language, toggleLanguage } = useLanguage();
     const [selectedCategory, setSelectedCategory] = useState<Categories | null>(null);
     const [selectedTree, setSelectedTree] = useState<keyof typeof Trees | null>(null);
     const [talentPoints, setTalentPoints] = useState<Record<string, Record<string, number>>>({});
@@ -136,6 +138,26 @@ export default function TalentTreeApp() {
             >
                 Game Version: {GAME_VERSION}
             </Typography>
+
+            {/* Language Toggle Button */}
+            <Button
+                size="small"
+                variant="outlined"
+                onClick={toggleLanguage}
+                sx={{
+                    position: 'absolute',
+                    top: 8,
+                    left: 12,
+                    color: '#aaa',
+                    borderColor: '#555',
+                    minWidth: 48,
+                    fontSize: '0.7rem',
+                    py: 0.25,
+                    '&:hover': { borderColor: '#aaa' },
+                }}
+            >
+                {language === 'en' ? 'EN' : 'JA'}
+            </Button>
 
             {/* Info Button */}
             <IconButton

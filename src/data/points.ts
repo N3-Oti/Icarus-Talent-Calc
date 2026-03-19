@@ -11,7 +11,7 @@ export const pointPools: Record<TalentPool, {
         cap: 90,
         trees: [
             'Resources', 'Hunting', 'Cooking',
-            'Exploration', 'Husbandry', 'Fishing',
+            'Exploration', 'Husbandry', 'Genetics', 'Fishing',
             'Repairing', 'Tools', 'Building',
             'Bows', 'Spears', 'Blades', 'Firearms'
         ]

@@ -6,6 +6,7 @@ export const buildingTree = {
         {
             name: "Wood Hauling",
             description: "Wooden buildables weigh less in inventory",
+            descriptionJa: "木材の建築ピースのインベントリ重量が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -19,6 +20,7 @@ export const buildingTree = {
         {
             name: "Stone Hauling I",
             description: "Stone buildables weigh less in inventory",
+            descriptionJa: "石材の建築ピースのインベントリ重量が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -32,6 +34,7 @@ export const buildingTree = {
         {
             name: "Concrete Hauling",
             description: "Concrete buildables weigh less in inventory",
+            descriptionJa: "コンクリートの建築ピースのインベントリ重量が減少する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -45,6 +48,7 @@ export const buildingTree = {
         {
             name: "Discount Wood",
             description: "Wooden buildables cost less to craft",
+            descriptionJa: "木製建築ピースのクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -57,6 +61,7 @@ export const buildingTree = {
         {
             name: "Discount Stone",
             description: "Stone buildables cost less to craft",
+            descriptionJa: "石製建築ピースのクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -69,6 +74,7 @@ export const buildingTree = {
         {
             name: "Discount Concrete",
             description: "Concrete buildables cost less to craft",
+            descriptionJa: "コンクリート製建築ピースのクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -81,6 +87,7 @@ export const buildingTree = {
         {
             name: "Deployable Engineering",
             description: "Reduced crafting time of deployables",
+            descriptionJa: "デプロイアブルアイテムのクラフト時間が短縮される",
             rank: 2,
             prerequisites: ["Stoking the Flames"],
             benefits: [
@@ -92,6 +99,7 @@ export const buildingTree = {
         {
             name: "Extra Space I",
             description: "Storage deployables have larger inventories",
+            descriptionJa: "ストレージのインベントリスロットが増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -104,6 +112,7 @@ export const buildingTree = {
         {
             name: "Fireproofing Sealant",
             description: "Wooden building pieces are less likely to catch fire",
+            descriptionJa: "木製建築ピースが燃えにくくなる",
             rank: 4,
             prerequisites: ["Weatherproof Cladding"],
             benefits: [
@@ -115,6 +124,7 @@ export const buildingTree = {
         {
             name: "Weatherproof Cladding",
             description: "Slower storm damage on wooden buildables",
+            descriptionJa: "嵐による木製建築物へのダメージが遅くなる",
             rank: 3,
             prerequisites: ["Fortified Wood"],
             benefits: [
@@ -126,6 +136,7 @@ export const buildingTree = {
         {
             name: "Enhanced Defences",
             description: "Hedgehogs deal more damage",
+            descriptionJa: "ヘッジホッグの与えるダメージが上昇する",
             rank: 3,
             prerequisites: ["Deployable Engineering"],
             benefits: [
@@ -137,6 +148,7 @@ export const buildingTree = {
         {
             name: "Fortified Rod",
             description: "Lightning rods have more durability",
+            descriptionJa: "避雷針の耐久値が上昇する",
             rank: 3,
             prerequisites: ["Discount Rod"],
             benefits: [
@@ -150,6 +162,7 @@ export const buildingTree = {
         {
             name: "Discount Rod",
             description: "Basic lightning rod costs less to craft",
+            descriptionJa: "基本避雷針のクラフトコストが安くなる",
             rank: 2,
             prerequisites: ["Stoking the Flames"],
             benefits: [
@@ -161,6 +174,7 @@ export const buildingTree = {
         {
             name: "Fortified Wood",
             description: "Crafted wood buildables have more durability",
+            descriptionJa: "クラフトした木製建築物の耐久値が上昇する",
             rank: 2,
             prerequisites: ["Discount Wood"],
             benefits: [
@@ -173,6 +187,7 @@ export const buildingTree = {
         {
             name: "Stoking the Flames",
             description: "Increased smelting speed on furnaces",
+            descriptionJa: "かまどのスメルト速度が上昇する",
             rank: 1,
             prerequisites: ["Extra Space I"],
             benefits: [
@@ -185,6 +200,7 @@ export const buildingTree = {
         {
             name: "Wood Hauling II",
             description: "Wooden buildables weigh less in inventory",
+            descriptionJa: "木材の建築ピースのインベントリ重量がさらに減少する",
             rank: 2,
             prerequisites: ["Wood Hauling"],
             benefits: [
@@ -198,6 +214,7 @@ export const buildingTree = {
         {
             name: "Stone Hauling II",
             description: "Stone buildables weigh less in inventory",
+            descriptionJa: "石材の建築ピースのインベントリ重量がさらに減少する",
             rank: 2,
             prerequisites: ["Stone Hauling I"],
             benefits: [
@@ -211,6 +228,7 @@ export const buildingTree = {
         {
             name: "Concrete Hauling II",
             description: "Concrete buildables weigh less in inventory",
+            descriptionJa: "コンクリートの建築ピースのインベントリ重量がさらに減少する",
             rank: 2,
             prerequisites: ["Concrete Hauling"],
             benefits: [
@@ -224,6 +242,7 @@ export const buildingTree = {
         {
             name: "Extra Space II",
             description: "Storage deployables have larger inventories",
+            descriptionJa: "ストレージのインベントリスロットがさらに増加する",
             rank: 3,
             prerequisites: ["Stoking the Flames"],
             benefits: [
@@ -236,6 +255,7 @@ export const buildingTree = {
         {
             name: "Discount Thatch",
             description: "Thatch buildables cost less to craft",
+            descriptionJa: "わら製建築ピースのクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -248,6 +268,7 @@ export const buildingTree = {
         {
             name: "Discount Glass",
             description: "Glass buildables cost less to craft",
+            descriptionJa: "ガラス製建築ピースのクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [

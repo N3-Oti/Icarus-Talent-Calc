@@ -6,6 +6,7 @@ export const catTree = {
 		{
 			name: "Nurturing Gaze",
 			description: "Reduces Threat, at max rank grants Taming Speed Aura",
+			descriptionJa: "脅威度が減少し、最大ランクでテイム速度オーラを付与する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -19,6 +20,7 @@ export const catTree = {
 		{
 			name: "Lounging Prowess",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -32,6 +34,7 @@ export const catTree = {
 		{
 			name: "Self Sufficient",
 			description: "Reduces water and food consumption",
+			descriptionJa: "水と食料の消費が減少する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -45,6 +48,7 @@ export const catTree = {
 		{
 			name: "Homely Recovery",
 			description: "Grants Health Regeneration, at max rank grants a Health Regeneration Aura",
+			descriptionJa: "HP再生を付与し、最大ランクでHP再生オーラを付与する",
 			rank: 1,
 			prerequisites: ["Calming Presence"],
 			benefits: [
@@ -58,6 +62,7 @@ export const catTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Cat"],
 			benefits: [
@@ -72,6 +77,7 @@ export const catTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Cat"],
 			benefits: [
@@ -86,6 +92,7 @@ export const catTree = {
 		{
 			name: "Cat",
 			description: "Can be specialized into different bonuses for your base.",
+			descriptionJa: "拠点に対してさまざまなボーナスに特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -97,6 +104,7 @@ export const catTree = {
 		{
 			name: "Calming Presence",
 			description: "Increase Coziness Bonus",
+			descriptionJa: "居心地ボーナスが増加する",
 			rank: 1,
 			prerequisites: ["Cat"],
 			benefits: [
@@ -111,6 +119,7 @@ export const catTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Cat"],
 			benefits: [
@@ -125,6 +134,7 @@ export const catTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Calming Presence", "Metabolic Preservation"],
 			benefits: [
@@ -139,6 +149,7 @@ export const catTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption and Increased Heat Resistance",
+			descriptionJa: "水消費が減少し、暑さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude", "Calming Presence"],
 			benefits: [
@@ -153,6 +164,7 @@ export const catTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration and Cold Resistance",
+			descriptionJa: "食料効果時間が延長され、寒さ耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Wild Fortitude"],
 			benefits: [
@@ -167,6 +179,7 @@ export const catTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation", "Nurtured Recovery"],
 			benefits: [
@@ -181,6 +194,7 @@ export const catTree = {
 		{
 			name: "Nine Lives",
 			description: "Increased Maximum Health, at max rank spawns a new Cat on Death",
+			descriptionJa: "最大HPが増加し、最大ランクで死亡時に新たなネコを召喚する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [

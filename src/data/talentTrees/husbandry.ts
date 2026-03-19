@@ -6,6 +6,7 @@ export const husbandryTree = {
         {
             name: "Nurturing Presence",
             description: "Nearby juvenile creatures tame faster",
+            descriptionJa: "近くの幼体のテイム速度が上昇する",
             rank: 3,
             prerequisites: ["Adaptive Training"],
             benefits: [
@@ -17,6 +18,7 @@ export const husbandryTree = {
         {
             name: "Like the wind",
             description: "Tamed creatures move faster",
+            descriptionJa: "テイムしたクリーチャーの移動速度が上昇する",
             rank: 4,
             prerequisites: ["Long Haul"],
             benefits: [
@@ -28,6 +30,7 @@ export const husbandryTree = {
         {
             name: "Efficient Feeding",
             description: "Tamed creatures need less food and water",
+            descriptionJa: "テイムしたクリーチャーの食料・水の消費が減少する",
             rank: 1,
             prerequisites: ["Well Cared For", "Grazing for the herd"],
             benefits: [
@@ -40,6 +43,7 @@ export const husbandryTree = {
         {
             name: "Energetic Encouragement",
             description: "Tamed creatures have faster stamina regeneration and require less sleep when taming",
+            descriptionJa: "テイムしたクリーチャーのスタミナ再生が速くなり、テイム中の睡眠要求が減少する",
             rank: 1,
             prerequisites: ["Back in the Saddle"],
             benefits: [
@@ -52,6 +56,7 @@ export const husbandryTree = {
         {
             name: "Beasts Endurance",
             description: "Increase tamed creature stamina",
+            descriptionJa: "テイムしたクリーチャーの最大スタミナが増加する",
             rank: 3,
             prerequisites: ["Long Haul"],
             benefits: [
@@ -64,6 +69,7 @@ export const husbandryTree = {
         {
             name: "Long Haul",
             description: "Increase tamed creature carrying capacity",
+            descriptionJa: "テイムしたクリーチャーの積載量が増加する",
             rank: 3,
             prerequisites: ["Relaxed Rider", "Hardy Diet"],
             benefits: [
@@ -77,6 +83,7 @@ export const husbandryTree = {
         {
             name: "Back in the Saddle",
             description: "Reduced crafting cost of Saddles",
+            descriptionJa: "サドルのクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -89,6 +96,7 @@ export const husbandryTree = {
         {
             name: "(Still) One With Nature",
             description: "Juvenile creatures are not attacked by hostile wildlife",
+            descriptionJa: "幼体が敵対野生動物に攻撃されなくなる",
             rank: 4,
             prerequisites: ["Nurturing Presence"],
             benefits: [
@@ -100,6 +108,7 @@ export const husbandryTree = {
         {
             name: "Adaptive Training",
             description: "Greater temperature range for taming",
+            descriptionJa: "テイムに適した温度範囲が広がる",
             rank: 2,
             prerequisites: ["Efficient Feeding"],
             benefits: [
@@ -112,6 +121,7 @@ export const husbandryTree = {
         {
             name: "Relaxed Rider",
             description: "Decreased oxygen, food and water costs while riding",
+            descriptionJa: "騎乗中の酸素・食料・水の消費が減少する",
             rank: 2,
             prerequisites: ["Energetic Encouragement"],
             benefits: [
@@ -124,6 +134,7 @@ export const husbandryTree = {
         {
             name: "In Your Element",
             description: "Increased Exposure Resistance while riding",
+            descriptionJa: "騎乗中の暴露耐性が増加する",
             rank: 4,
             prerequisites: ["Desert Training", "Arctic Training"],
             benefits: [
@@ -136,6 +147,7 @@ export const husbandryTree = {
         {
             name: "Hardy Diet",
             description: "Increase tamed creature health and health regeneration",
+            descriptionJa: "テイムしたクリーチャーの体力と体力再生が増加する",
             rank: 2,
             prerequisites: ["Relaxed Rider", "Rapid Adoption", "Efficient Feeding"],
             benefits: [
@@ -149,6 +161,7 @@ export const husbandryTree = {
         {
             name: "Arctic Training",
             description: "Juvenile and tamed creatures better tolerate colder environments",
+            descriptionJa: "幼体とテイムしたクリーチャーが寒い環境に耐えやすくなる",
             rank: 3,
             prerequisites: ["Nurturing Presence"],
             benefits: [
@@ -161,6 +174,7 @@ export const husbandryTree = {
         {
             name: "Desert Training",
             description: "Juvenile and tamed creatures better tolerate warmer environments",
+            descriptionJa: "幼体とテイムしたクリーチャーが暑い環境に耐えやすくなる",
             rank: 3,
             prerequisites: ["Nurturing Presence"],
             benefits: [
@@ -173,6 +187,7 @@ export const husbandryTree = {
         {
             name: "Well Cared For",
             description: "Reduced crafting cost of taming equipment",
+            descriptionJa: "テイム装備のクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -185,6 +200,7 @@ export const husbandryTree = {
         {
             name: "Rapid Adoption",
             description: "Increased damage from stealth",
+            descriptionJa: "ステルスからのダメージが増加する",
             rank: 2,
             prerequisites: ["Grazing for the herd", "Back in the Saddle"],
             benefits: [
@@ -196,6 +212,7 @@ export const husbandryTree = {
         {
             name: "Act Natural",
             description: "Reduced tamed creature threat and threat while riding",
+            descriptionJa: "テイムしたクリーチャーと騎乗中の脅威度が減少する",
             rank: 3,
             prerequisites: ["Hardy Diet"],
             benefits: [
@@ -209,6 +226,7 @@ export const husbandryTree = {
         {
             name: "Grazing for the herd",
             description: "Increases foraging yield",
+            descriptionJa: "採集収量が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -222,6 +240,7 @@ export const husbandryTree = {
         {
             name: "Kill Command",
             description: "Increased tamed creature melee damage",
+            descriptionJa: "テイムしたクリーチャーの近接ダメージが増加する",
             rank: 3,
             prerequisites: ["Hardy Diet"],
             benefits: [

@@ -6,6 +6,7 @@ export const soloTree = {
         {
             name: "Lone Wolf",
             description: "Increased XP gain when not in a party",
+            descriptionJa: "パーティに入っていない時の経験値獲得が増加する",
             rank: 4,
             prerequisites: ["The Big Three", "Pack Horse"],
             benefits: [
@@ -18,6 +19,7 @@ export const soloTree = {
         {
             name: "Healthy Maverick",
             description: "Increased base health",
+            descriptionJa: "基本体力が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -30,6 +32,7 @@ export const soloTree = {
         {
             name: "Marathon Runner",
             description: "Increased base stamina",
+            descriptionJa: "基本スタミナが増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -42,6 +45,7 @@ export const soloTree = {
         {
             name: "Low Maintenance",
             description: "Decreased oxygen, hunger and thirst costs",
+            descriptionJa: "酸素・空腹・喉の渇きのコストが減少する",
             rank: 2,
             prerequisites: ["Lightning Recovery", "'Tis But A Scratch"],
             benefits: [
@@ -54,6 +58,7 @@ export const soloTree = {
         {
             name: "Fleet Footed",
             description: "Increased base movespeed",
+            descriptionJa: "基本移動速度が増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -66,6 +71,7 @@ export const soloTree = {
         {
             name: "Pack Horse",
             description: "Increased inventory weight capacity",
+            descriptionJa: "インベントリの重量容量が増加する",
             rank: 2,
             prerequisites: ["Low Maintenance", "Bounce Back"],
             benefits: [
@@ -77,6 +83,7 @@ export const soloTree = {
         {
             name: "Bounce Back",
             description: "Increased base health regen",
+            descriptionJa: "基本体力再生速度が上昇する",
             rank: 1,
             prerequisites: ["Healthy Maverick", "Heavy Hitter"],
             benefits: [
@@ -89,6 +96,7 @@ export const soloTree = {
         {
             name: "Lightning Recovery",
             description: "Increased base stamina regen",
+            descriptionJa: "基本スタミナ再生速度が上昇する",
             rank: 1,
             prerequisites: ["Marathon Runner"],
             benefits: [
@@ -101,6 +109,7 @@ export const soloTree = {
         {
             name: "Mobile Stockpile",
             description: "Stone, wood and metal weigh less in inventory",
+            descriptionJa: "石・木材・金属のインベントリ重量が減少する",
             rank: 3,
             prerequisites: ["Pack Horse"],
             benefits: [
@@ -112,6 +121,7 @@ export const soloTree = {
         {
             name: "Savage Hunter II",
             description: "Increased yields from hunting",
+            descriptionJa: "狩猟での収量がさらに増加する",
             rank: 4,
             prerequisites: ["Savage Hunter I"],
             benefits: [
@@ -124,6 +134,7 @@ export const soloTree = {
         {
             name: "The Big Three",
             description: "Increased wood, stone and fiber yield",
+            descriptionJa: "木材・石・繊維の収量が増加する",
             rank: 2,
             prerequisites: ["Low Maintenance", "Miner Rewards"],
             benefits: [
@@ -135,6 +146,7 @@ export const soloTree = {
         {
             name: "Basic Move",
             description: "All buildables weigh less in your inventory",
+            descriptionJa: "すべての建築ピースのインベントリ重量が減少する",
             rank: 4,
             prerequisites: ["Mobile Stockpile"],
             benefits: [
@@ -147,6 +159,7 @@ export const soloTree = {
         {
             name: "'Tis But A Scratch",
             description: "Reduced damage from animals",
+            descriptionJa: "動物からのダメージが減少する",
             rank: 1,
             prerequisites: ["Fleet Footed"],
             benefits: [
@@ -160,6 +173,7 @@ export const soloTree = {
         {
             name: "Very, Very Quiet",
             description: "Harder to detect when sneaking",
+            descriptionJa: "隠密時に発見されにくくなる",
             rank: 2,
             prerequisites: ["Fleet Footed"],
             benefits: [
@@ -171,6 +185,7 @@ export const soloTree = {
         {
             name: "Savage Hunter I",
             description: "Increased yields from hunting",
+            descriptionJa: "狩猟での収量が増加する",
             rank: 3,
             prerequisites: ["The Big Three"],
             benefits: [
@@ -183,6 +198,7 @@ export const soloTree = {
         {
             name: "Steel Ankles",
             description: "Reduced chance of sprain from fall damage",
+            descriptionJa: "落下ダメージによる捻挫のチャンスが減少する",
             rank: 1,
             prerequisites: ["Fleet Footed"],
             benefits: [
@@ -196,6 +212,7 @@ export const soloTree = {
         {
             name: "Heavy Hitter",
             description: "A general increase to melee damage",
+            descriptionJa: "近接ダメージが全般的に増加する",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -208,6 +225,7 @@ export const soloTree = {
         {
             name: "More Than A Handful",
             description: "Increased yield from harvesting by hand",
+            descriptionJa: "手でのハーベスト収量が増加する",
             rank: 3,
             prerequisites: ["The Big Three"],
             benefits: [
@@ -220,6 +238,7 @@ export const soloTree = {
         {
             name: "Precision Logging",
             description: "Increased wood from felling",
+            descriptionJa: "伐採で得られる木材が増加する",
             rank: 2,
             prerequisites: ["Lightning Recovery"],
             benefits: [
@@ -232,6 +251,7 @@ export const soloTree = {
         {
             name: "Miner Rewards",
             description: "Increased yield from mining ore deposits",
+            descriptionJa: "鉱床からの収量が増加する",
             rank: 2,
             prerequisites: ["Precision Logging"],
             benefits: [
@@ -244,6 +264,7 @@ export const soloTree = {
         {
             name: "Efficient Home Maintenance",
             description: "Decreased stamina cost for Firewhacker use and faster repair time with hammers",
+            descriptionJa: "ファイアウォッカー使用のスタミナコストが減少し、ハンマーの修理速度が上昇する",
             rank: 2,
             prerequisites: ["Bounce Back", "Pack Horse"],
             benefits: [
@@ -255,6 +276,7 @@ export const soloTree = {
         {
             name: "Gotta Damage Fast",
             description: "Hedgehogs deal more damage",
+            descriptionJa: "ヘッジホッグの与えるダメージが上昇する",
             rank: 3,
             prerequisites: ["Efficient Home Maintenance"],
             benefits: [
@@ -266,6 +288,7 @@ export const soloTree = {
         {
             name: "Honed Heads",
             description: "Adds a bonus to arrow damage",
+            descriptionJa: "矢のダメージにボーナスが加わる",
             rank: 2,
             prerequisites: ["Heavy Hitter"],
             benefits: [
@@ -278,6 +301,7 @@ export const soloTree = {
         {
             name: "Bring A Gun To A Gun Fight",
             description: "Increased firearm projectile damage",
+            descriptionJa: "銃器のプロジェクタイルダメージが増加する",
             rank: 2,
             prerequisites: ["Heavy Hitter"],
             benefits: [
@@ -290,6 +314,7 @@ export const soloTree = {
         {
             name: "Slice And Dice",
             description: "Increased knife melee and thrown knife damage",
+            descriptionJa: "ナイフの近接ダメージと投げナイフのダメージが増加する",
             rank: 2,
             prerequisites: ["Heavy Hitter"],
             benefits: [
@@ -302,6 +327,7 @@ export const soloTree = {
         {
             name: "Stick Of Destiny",
             description: "Increased spear melee and thrown spear damage",
+            descriptionJa: "スピアの近接ダメージと投げスピアのダメージが増加する",
             rank: 2,
             prerequisites: ["Heavy Hitter"],
             benefits: [
@@ -314,6 +340,7 @@ export const soloTree = {
         {
             name: "Health Monitor",
             description: "See animal health bars",
+            descriptionJa: "動物のHP表示が見えるようになる",
             rank: 3,
             prerequisites: ["Heavy Hitter"],
             benefits: [
@@ -325,6 +352,7 @@ export const soloTree = {
         {
             name: "Sweet, Savoury, Satisfied",
             description: "Food buffs persist longer",
+            descriptionJa: "食料バフの持続時間が延長される",
             rank: 2,
             prerequisites: ["Bounce Back"],
             benefits: [

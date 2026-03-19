@@ -6,6 +6,7 @@ export const fishingTree = {
         {
             name: "Angler's Technique",
             description: "Cheaper fishing rod crafting",
+            descriptionJa: "釣竿のクラフトコストが安くなる",
             rank: 1,
             prerequisites: [],
             benefits: [
@@ -18,6 +19,7 @@ export const fishingTree = {
         {
             name: "Calmer Waters",
             description: "Reduced fish speed while fishing",
+            descriptionJa: "釣り中の魚の速度が減少する",
             rank: 1,
             prerequisites: ["Angler's Technique"],
             benefits: [
@@ -30,6 +32,7 @@ export const fishingTree = {
         {
             name: "Fish Fu",
             description: "Increases damage reduction while fishing",
+            descriptionJa: "釣り中のダメージ軽減が増加する",
             rank: 3,
             prerequisites: ["Calmer Waters"],
             benefits: [
@@ -41,6 +44,7 @@ export const fishingTree = {
         {
             name: "Nice day for fishing ain't it?",
             description: "Increases resistance to exposure",
+            descriptionJa: "暴露耐性が増加する",
             rank: 4,
             prerequisites: ["Fish Fu"],
             benefits: [
@@ -53,6 +57,7 @@ export const fishingTree = {
         {
             name: "Efficient Fisher",
             description: "Reduced durability loss on lures",
+            descriptionJa: "ルアーの耐久消費が減少する",
             rank: 1,
             prerequisites: ["Natural Angler", "Angler's Technique"],
             benefits: [
@@ -66,6 +71,7 @@ export const fishingTree = {
         {
             name: "Hefty catch",
             description: "Increased caught fish weight",
+            descriptionJa: "釣った魚の重さが増加する",
             rank: 1,
             prerequisites: ["Efficient Fisher"],
             benefits: [
@@ -77,6 +83,7 @@ export const fishingTree = {
         {
             name: "That's a big one",
             description: "Increased caught fish length",
+            descriptionJa: "釣った魚の長さが増加する",
             rank: 1,
             prerequisites: ["Efficient Fisher"],
             benefits: [
@@ -88,6 +95,7 @@ export const fishingTree = {
         {
             name: "Fisher's Haul",
             description: "Decreases fish weight in your inventory",
+            descriptionJa: "インベントリ内の魚の重量が減少する",
             rank: 2,
             prerequisites: ["Hefty catch", "That's a big one"],
             benefits: [
@@ -99,6 +107,7 @@ export const fishingTree = {
         {
             name: "Steady Breathing",
             description: "Reduced oxygen consumption rate",
+            descriptionJa: "酸素消費率が減少する",
             rank: 2,
             prerequisites: ["Fisher's Haul"],
             benefits: [
@@ -111,6 +120,7 @@ export const fishingTree = {
         {
             name: "One with the water",
             description: "Reduced water consumption rate",
+            descriptionJa: "水分消費率が減少する",
             rank: 2,
             prerequisites: ["Fisher's Haul"],
             benefits: [
@@ -123,6 +133,7 @@ export const fishingTree = {
         {
             name: "Saltiest Catch",
             description: "Increased quality of caught saltwater fish",
+            descriptionJa: "釣った海水魚のクオリティが上昇する",
             rank: 3,
             prerequisites: ["Steady Breathing"],
             benefits: [
@@ -134,6 +145,7 @@ export const fishingTree = {
         {
             name: "Freshest Catch",
             description: "Increased quality of caught freshwater fish",
+            descriptionJa: "釣った淡水魚のクオリティが上昇する",
             rank: 3,
             prerequisites: ["One with the water"],
             benefits: [
@@ -145,6 +157,7 @@ export const fishingTree = {
         {
             name: "Pescatarian",
             description: "Buffs from food containing fish are increased",
+            descriptionJa: "魚を含む食料のバフ効果が増加する",
             rank: 2,
             prerequisites: ["Fisher's Haul"],
             benefits: [
@@ -157,6 +170,7 @@ export const fishingTree = {
         {
             name: "Deadliest Catch",
             description: "Increased quality of fish caught during storms",
+            descriptionJa: "嵐の中で釣った魚のクオリティが上昇する",
             rank: 3,
             prerequisites: ["Fisher's Haul"],
             benefits: [
@@ -168,6 +182,7 @@ export const fishingTree = {
         {
             name: "The Golden Zone",
             description: "Increased size of capture area when fishing",
+            descriptionJa: "釣り時のキャプチャゾーンのサイズが増加する",
             rank: 3,
             prerequisites: ["Deadliest Catch", "Pescatarian"],
             benefits: [
@@ -181,6 +196,7 @@ export const fishingTree = {
         {
             name: "Medium Game Fisher",
             description: "Increases the likelyhood of finding uncommon fish",
+            descriptionJa: "アンコモンな魚が釣れる可能性が増加する",
             rank: 4,
             prerequisites: ["The Golden Zone"],
             benefits: [
@@ -193,6 +209,7 @@ export const fishingTree = {
         {
             name: "Big Game Fisher",
             description: "Increases the likelyhood of finding rare and unique fish",
+            descriptionJa: "レアでユニークな魚が釣れる可能性が増加する",
             rank: 4,
             prerequisites: ["The Golden Zone"],
             benefits: [
@@ -205,6 +222,7 @@ export const fishingTree = {
         {
             name: "Natural Angler",
             description: "Increased size of capture area when fishing",
+            descriptionJa: "釣り時のキャプチャゾーンのサイズが増加する",
             rank: 1,
             prerequisites: [],
             benefits: [

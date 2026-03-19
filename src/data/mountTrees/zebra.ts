@@ -6,6 +6,7 @@ export const zebraTree = {
 		{
 			name: "Wild Fortitude",
 			description: "Increased Maximum Health",
+			descriptionJa: "最大HPが増加する",
 			rank: 1,
 			prerequisites: ["Zebra"],
 			benefits: [
@@ -20,6 +21,7 @@ export const zebraTree = {
 		{
 			name: "Metabolic Preservation",
 			description: "Reduced Food Usage",
+			descriptionJa: "食料消費が減少する",
 			rank: 1,
 			prerequisites: ["Zebra"],
 			benefits: [
@@ -34,6 +36,7 @@ export const zebraTree = {
 		{
 			name: "Riding Forward",
 			description: "Increased Slow Resistance",
+			descriptionJa: "スロー耐性が上昇する",
 			rank: 1,
 			prerequisites: ["Strong Back"],
 			benefits: [
@@ -48,6 +51,7 @@ export const zebraTree = {
 		{
 			name: "Strong Back",
 			description: "Increased Weight Capacity",
+			descriptionJa: "重量容量が増加する",
 			rank: 1,
 			prerequisites: ["Zebra"],
 			benefits: [
@@ -62,6 +66,7 @@ export const zebraTree = {
 		{
 			name: "Zebra",
 			description: "Can be specialised into desert bonuses or general bonuses.",
+			descriptionJa: "砂漠ボーナスまたは汎用ボーナスに特化できる",
 			rank: 1,
 			prerequisites: [],
 			benefits: [
@@ -73,6 +78,7 @@ export const zebraTree = {
 		{
 			name: "Natural Endurance",
 			description: "Increased Maximum Stamina",
+			descriptionJa: "最大スタミナが増加する",
 			rank: 1,
 			prerequisites: ["Zebra"],
 			benefits: [
@@ -87,6 +93,7 @@ export const zebraTree = {
 		{
 			name: "Catlike Grace",
 			description: "Increased Fall Damage Reduction",
+			descriptionJa: "落下ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -101,6 +108,7 @@ export const zebraTree = {
 		{
 			name: "Nurtured Recovery",
 			description: "Increased Health Regeneration",
+			descriptionJa: "HP再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Strong Back"],
 			benefits: [
@@ -115,6 +123,7 @@ export const zebraTree = {
 		{
 			name: "Soft Padding",
 			description: "Reduced Animal Threat",
+			descriptionJa: "動物に感知される脅威が減少する",
 			rank: 1,
 			prerequisites: ["Natural Endurance"],
 			benefits: [
@@ -129,6 +138,7 @@ export const zebraTree = {
 		{
 			name: "Large Stomach",
 			description: "Increases Food Buff Effectiveness and allows an additional Food Buff",
+			descriptionJa: "食料バフ効果が上昇し、追加の食料バフスロットが解放される",
 			rank: 1,
 			prerequisites: ["Roaming Vitality", "Soft Padding"],
 			benefits: [
@@ -142,6 +152,7 @@ export const zebraTree = {
 		{
 			name: "Roaming Vitality",
 			description: "Increased Stamina Regeneration",
+			descriptionJa: "スタミナ再生速度が上昇する",
 			rank: 1,
 			prerequisites: ["Metabolic Preservation"],
 			benefits: [
@@ -156,6 +167,7 @@ export const zebraTree = {
 		{
 			name: "Hydration Elasticity",
 			description: "Reduced Water Consumption",
+			descriptionJa: "水消費が減少する",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -170,6 +182,7 @@ export const zebraTree = {
 		{
 			name: "Perfect Pasturage",
 			description: "Increased Food Effects Duration",
+			descriptionJa: "食料効果時間が延長され、最大ランクで放牧行動が有効になる",
 			rank: 1,
 			prerequisites: ["Wild Fortitude"],
 			benefits: [
@@ -184,6 +197,7 @@ export const zebraTree = {
 		{
 			name: "Balanced Pack",
 			description: "Increased Inventory Slots",
+			descriptionJa: "インベントリスロットが増加する",
 			rank: 1,
 			prerequisites: ["Perfect Pasturage", "Riding Forward"],
 			benefits: [
@@ -197,6 +211,7 @@ export const zebraTree = {
 		{
 			name: "Tough as Leather",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性が増加する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery", "Catlike Grace"],
 			benefits: [
@@ -210,6 +225,7 @@ export const zebraTree = {
 		{
 			name: "Springful Step",
 			description: "Reduced Jumping Stamina Cost",
+			descriptionJa: "ジャンプ時のスタミナ消費が減少する",
 			rank: 1,
 			prerequisites: ["Natural Endurance"],
 			benefits: [
@@ -224,6 +240,7 @@ export const zebraTree = {
 		{
 			name: "Racing Ready",
 			description: "Increased Movement Speed",
+			descriptionJa: "移動速度が増加する",
 			rank: 1,
 			prerequisites: ["Springful Step", "Hydration Elasticity"],
 			benefits: [
@@ -237,6 +254,7 @@ export const zebraTree = {
 		{
 			name: "Thick Hide",
 			description: "Increased Physical Damage Reduction",
+			descriptionJa: "物理ダメージ耐性がさらに増加する",
 			rank: 1,
 			prerequisites: ["Catlike Grace"],
 			benefits: [
@@ -250,6 +268,7 @@ export const zebraTree = {
 		{
 			name: "Equine Endurance",
 			description: "Increased Maximum Stamina",
+			descriptionJa: "最大スタミナがさらに増加する",
 			rank: 1,
 			prerequisites: ["Roaming Vitality"],
 			benefits: [
@@ -263,6 +282,7 @@ export const zebraTree = {
 		{
 			name: "Enduring Digestion",
 			description: "Increased Food Effects Duration",
+			descriptionJa: "食料効果時間がさらに延長される",
 			rank: 1,
 			prerequisites: ["Perfect Pasturage"],
 			benefits: [
@@ -276,6 +296,7 @@ export const zebraTree = {
 		{
 			name: "Fever Control",
 			description: "Reduces Desert Water Consumption, at max rank grants Hyperthermia Resist Aura",
+			descriptionJa: "砂漠での水消費が減少し、最大ランクで高体温症耐性オーラを付与する",
 			rank: 1,
 			prerequisites: ["Nurtured Recovery"],
 			benefits: [
@@ -289,6 +310,7 @@ export const zebraTree = {
 		{
 			name: "Plainswalker",
 			description: "Increased Movement Speed in Deserts",
+			descriptionJa: "砂漠での移動速度が増加する",
 			rank: 1,
 			prerequisites: ["Soft Padding"],
 			benefits: [
@@ -302,6 +324,7 @@ export const zebraTree = {
 		{
 			name: "Arid Adaption",
 			description: "Reduced Water Consumption in the Desert",
+			descriptionJa: "砂漠での水消費がさらに減少する",
 			rank: 1,
 			prerequisites: ["Riding Forward"],
 			benefits: [
