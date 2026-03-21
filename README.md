@@ -1,5 +1,9 @@
 # Icarus Talent Calculator
 
+> [!WARNING]
+> このブランチ (`feature/github-pages-deploy`) は自前のGitHub Pages展開用の一時対応ブランチです。
+> フォーク元への還元は不要な変更を含むため、`main` へのマージや正規の更新はこのブランチでは行わないでください。
+
 A web-based talent calculator and planner for the survival game **Icarus** by RocketWerkz.
 
 This tool allows players to plan out their builds, explore talent trees, and share them with others. It supports features like multi-pool point caps, smart prerequisite logic, rank-based refund gating, and more — all within a clean, modern UI powered by React and MUI.

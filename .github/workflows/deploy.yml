@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,6 +17,23 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
+
+      - name: Update README live demo link
+        if: github.actor != 'github-actions[bot]'
+        run: |
+          OWNER="${{ github.repository_owner }}"
+          REPO="${{ github.event.repository.name }}"
+          NEW_URL="https://${OWNER}.github.io/${REPO}/"
+          sed -i "s|https://[^)]*\.github\.io/[^)/]*/?|${NEW_URL}|g" README.md
+          if git diff --quiet README.md; then
+            echo "README already up to date"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update live demo link to ${NEW_URL} [skip ci]"
+            git push
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,6 +48,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
