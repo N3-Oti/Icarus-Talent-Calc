@@ -10,7 +10,7 @@ This tool allows players to plan out their builds, explore talent trees, and sha
 
 ## 🌐 Live Demo
 
-👉 [Icarus Talent Calculator](https://panoramicpanda.github.io/Icarus-Talent-Calc/)
+👉 [Icarus Talent Calculator](https://n3-oti.github.io/Icarus-Talent-Calc/)
 
 ---
 
