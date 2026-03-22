@@ -21,11 +21,13 @@ import {
     importFromQueryParam,
     isVersionMismatch
 } from './utils/exportImport';
+import { SavedBuildsMap, loadAllBuilds } from './utils/savedBuilds';
 import SummaryBox from "./components/summaryBox.tsx";
 import './talentTree.css'
 import {TalentTree} from "./components/talentTree/talentTree.tsx";
 import ResetButtons from "./components/resetButtons.tsx";
 import ImportExportButtons from './components/importExportButtons.tsx';
+import SaveLoadPanel from './components/saveLoadPanel.tsx';
 import CategoryRibbon from "./components/categoryRibbon.tsx";
 import '@fontsource/barlow';
 import '@fontsource/tomorrow';
@@ -50,8 +52,14 @@ export default function TalentTreeApp() {
     const [exportText, setExportText] = useState('');
     // @ts-ignore
     const [blockingTalents, setBlockingTalents] = useState<Set<string>>(new Set());
+    const [savedBuilds, setSavedBuilds] = useState<SavedBuildsMap>({});
     const hasImportedRef = useRef(false);
 
+
+    // Load saved builds from localStorage on mount
+    useEffect(() => {
+        setSavedBuilds(loadAllBuilds());
+    }, []);
 
     // Keep track of Blocking talents
     useEffect(() => {
@@ -213,21 +221,31 @@ export default function TalentTreeApp() {
                 />
 
 
-                {/* Export/Import Buttons */}
-                <ImportExportButtons
-                    talentPoints={talentPoints}
-                    setTalentPoints={setTalentPoints}
-                    setTalentPointsSpent={setTalentPointsSpent}
-                    snackbar={{setMessage: setSnackbarMessage, setOpen: setSnackbarOpen}}
-                    importDialogOpen={importDialogOpen}
-                    setImportDialogOpen={setImportDialogOpen}
-                    exportDialogOpen={exportDialogOpen}
-                    setExportDialogOpen={setExportDialogOpen}
-                    importText={importText}
-                    setImportText={setImportText}
-                    exportText={exportText}
-                    setExportText={setExportText}
-                />
+                {/* Export/Import Buttons + Save/Load Panel */}
+                <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1, flexWrap: 'wrap', mb: 2 }}>
+                    <ImportExportButtons
+                        talentPoints={talentPoints}
+                        setTalentPoints={setTalentPoints}
+                        setTalentPointsSpent={setTalentPointsSpent}
+                        snackbar={{setMessage: setSnackbarMessage, setOpen: setSnackbarOpen}}
+                        importDialogOpen={importDialogOpen}
+                        setImportDialogOpen={setImportDialogOpen}
+                        exportDialogOpen={exportDialogOpen}
+                        setExportDialogOpen={setExportDialogOpen}
+                        importText={importText}
+                        setImportText={setImportText}
+                        exportText={exportText}
+                        setExportText={setExportText}
+                    />
+                    <SaveLoadPanel
+                        talentPoints={talentPoints}
+                        setTalentPoints={setTalentPoints}
+                        setTalentPointsSpent={setTalentPointsSpent}
+                        savedBuilds={savedBuilds}
+                        setSavedBuilds={setSavedBuilds}
+                        onMessage={setSnackbarMessage}
+                    />
+                </Box>
 
                 <div>
                     {/* Category Selection */}
