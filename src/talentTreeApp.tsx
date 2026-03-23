@@ -183,7 +183,7 @@ export default function TalentTreeApp() {
 
             <Box sx={{width: '100%'}}>
                 {/* Point Totals */}
-                <PointTotals talentPoints={talentPoints}/>
+                <PointTotals talentPoints={talentPoints} selectedTree={selectedTree}/>
 
                 {/* Reset Buttons */}
                 <ResetButtons
