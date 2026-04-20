@@ -8,5 +8,5 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom'
   },
-  base: '/'
+  base: process.env.VITE_BASE_PATH || '/'
 })

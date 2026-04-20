@@ -1,12 +1,14 @@
 # Icarus Talent Calculator
 
-A web-based talent calculator and planner for the survival game **Icarus** by RocketWerkz.
+> [!NOTE]
+> This project is a fork of [PanoramicPanda/Icarus-Talent-Calc](https://github.com/PanoramicPanda/Icarus-Talent-Calc).
+> It keeps the original foundation and adds Japanese localization, the `Genetics` talent tree, local save / load, and per-tree point totals for `Pets` and `Mounts`.
 
 This tool allows players to plan out their builds, explore talent trees, and share them with others. It supports features like multi-pool point caps, smart prerequisite logic, rank-based refund gating, and more — all within a clean, modern UI powered by React and MUI.
 
 ## 🌐 Live Demo
 
-👉 [Icarus Talent Calculator](https://panoramicpanda.github.io/Icarus-Talent-Calc/)
+👉 [Icarus Talent Calculator](https://n3-oti.github.io/Icarus-Talent-Calc/)
 
 ---
 
@@ -162,3 +164,4 @@ npm run build
 ## 📜 License
 
 MIT — Open source with ❤️ for the Icarus community.
+
